@@ -31,4 +31,5 @@ echo "<strong>Impressão do segundo número chamado:</strong><br>\n";
 //Impressão do número 7 do array "$Carros", o oitavo número.
 
 echo $Carros[7];
+
 ?>

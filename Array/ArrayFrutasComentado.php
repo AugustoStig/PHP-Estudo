@@ -30,4 +30,5 @@ echo '<strong>Impressão do segundo número chamado no array "Frutas":</strong>'
 //Impressão do número 3 do array "$Frutas", ou seja, o quarto número.
 
 echo $Frutas [3];
+
 ?>
