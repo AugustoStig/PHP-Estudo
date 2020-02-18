@@ -54,4 +54,5 @@ echo '<strong>Impressão da junção das variáveis "$Hello","$World","$Ponto" :
 //Impressão das variáveis "$Hello", "$World" e "$Ponto", utilizando aspas com espaço para fazer a separação e o ponto para a concatenação.
 
 echo $Hello." ".$World." ".$Ponto;
+
 ?>

@@ -2,7 +2,7 @@
 
 //Criado por José Augusto Chaves Izabel.
 
-//11/02/2020
+//18/02/2020
 
 /*Código com a finalidade de imprimir "Hello World!!!", mas com cada parte separada em uma variável, e ao final serão unidas por uma terceira variável, 
 que terá a função de imprimir "Hello World!!!".*/
@@ -55,4 +55,5 @@ echo '<strong>Impressão da variável $HelloWorld :</strong>'."<br>\n";
 //Impressão da variável "$HelloWorld".
 
 echo $HelloWorld;
+
 ?>

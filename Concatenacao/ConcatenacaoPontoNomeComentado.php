@@ -2,7 +2,7 @@
 
 //Criado por José Augusto Chaves Izabel
 
-//11/02/2020
+//18/02/2020
 
 //Código criado com a intenção de treinar a concatenação utilizando o ".".
 
@@ -113,4 +113,5 @@ echo "<strong>Impressão do nome completo do usuário :</strong><br>\n";
 //Impressão da variável "$NomesCompletos"
 
 echo $NomesCompletos;
+
 ?>
