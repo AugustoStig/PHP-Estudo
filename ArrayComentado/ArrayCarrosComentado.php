@@ -1,35 +1,68 @@
 <?php
 
-//Criado por José Augusto Chaves Izabel
+//Criado e atualizado por José Augusto Chaves Izabel
 
 //17/02/2020
 
-//Criação do array $Carros, onde será salvo 11 marcas de carro, númeradas do número 0 ao 10.
+//Criação do array "$Carros", onde serão salvas 11 marcas de carro, númeradas de 0 a 10.
 
-/*Criação do array "$Carros", após especificado que é um array, abrir parentesis e colocar os elementos do array, separados por uma vírgula, e 
-caso forem strings, usar aspas.*/
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Criação do array "$Carros".
 
 $Carros = array("Fiat", "Ford", "Volkswagen", "BMW", "Mercedes-Benz", "Lada", "Dacia", "Renault", "Citroën", "Peugeot", "Holden");
 
-//Impressão da mensagem do que vai acontecer a seguir.
+//Impressão de mensagem.
 
 echo "<strong>Impressão do primeiro número chamado:</strong><br>\n";
 
-//Impressão do número 3 do array "$Carros", o quarto número, pois o array caso não especificado começa em 0.
+//Impressão de número do array "$Carros", número 3.
 
 echo $Carros[3];
 
-/*Impressão da quebra de linha, utilizado a tag "<br>", que tem como função fazer a quebra de linha na exibição final, e a tag "/n", que tem como 
-função fazer a quebra de linha no código HTML que será gerado.*/
+//Quebra de linha.
 
 echo "<br>\n";
 
-//Impressão da mensagem do que irá acontecer a seguir, com o uso da tag "Strong", que serve para deixar as palavras em negrito.
+//Impressão de mensagem.
 
 echo "<strong>Impressão do segundo número chamado:</strong><br>\n";
 
-//Impressão do número 7 do array "$Carros", o oitavo número.
+//Impressão de número do array "$Carros", número 7.
 
 echo $Carros[7];
+
+exit;
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Para criar um array, deve ser criar a variável primeiro, exemplo:
+
+// $Exemplo = ;
+
+// Após deve informar que aquela variável será um array, exemplo:
+
+// $Exemplo = array;
+
+// Depois abrir parentesis e colocar os valores que irão compor aquela variável, caso seja string, colocar entre aspas, exemplo:
+
+// $Exemplo = array(1, 2, 3, 4, 5, "augusto", "teste");
+
+// Array criado.
+
+/* Para chamar algum número do array, escreva a a variável em um echo, após a variável coloque o número que deseja chamar entre colchetes, 
+lembrado que o array começa no 0 e não no 1, exemplo:*/
+
+// echo $Exemplo[3];
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// echo = Imprimir mensagem.
+
+// <br> = Quebra de linha na exibição final, deve ser usado dentro de aspas, simples ou duplas.
+
+// \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas.
+
+// exit = Serve para que o código pare de ser interpretado.
 
 ?>
