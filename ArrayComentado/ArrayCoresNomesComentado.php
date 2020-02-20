@@ -60,6 +60,8 @@ echo '<strong>Impressão do segundo número chamado no array "Nomes":</strong>'.
 
 echo $Nomes[7];
 
+exit;
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Para criar um array, deve ser criar a variável primeiro, exemplo:
@@ -91,5 +93,4 @@ lembrado que o array começa no 0 e não no 1, exemplo:*/
 
 // exit = Serve para que o código pare de ser interpretado.
 
-?>
 ?>
