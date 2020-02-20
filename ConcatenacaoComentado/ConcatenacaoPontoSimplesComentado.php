@@ -1,58 +1,72 @@
 <?php
 
-//Criado por José Augusto Chaves Izabel
+//Criado e atualizado por José Augusto Chaves Izabel
 
 //17/02/2020
 
-/*Código com a intenção de imprimir o "Hello World!!!" de duas maneiras diferentes, uma palavra por variável, separadas por um "<br>\n", 
-e depois juntas em uma única variável que terá a função de imprimir Hello World!!!*/
+//Impressão de um "Hello World !!!" com uso das variáveis.
 
-//Criação da variável "$Hello", que terá a função de armazenar a string "Hello".
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Criação da variável.
 
 $Hello = "Hello";
 
-//Impressão da mensagem do que irá acontecer a seguir.
+//Impressão de mensagem.
 
 echo '<strong>Impressão da variável "$Hello" :</strong>'."<br>\n";
 
-//Impressão da variável "$Hello".
 
-/*Uso da tag "<br>" que é utilizada para quebra linha na exibição final, e da tag "\n", que é utilizada para quebra linha no código HTML que será 
-gerado como resultado.*/
+//Impressão de variável com quebra de linha.
 
 echo $Hello."<br>\n";
 
-//Criação da variável "$World", que terá a função de armazenar a string "World".
+//Criação de variável.
 
 $World = "World";
 
-//Impressão da mesnagem do que irá acontecer a seguir.
+//Impressão de mensagem.
 
 echo '<strong>Impressão da variável "$World" :</strong>'."<br>\n";
 
-/*Impressão da variável "$World", junto com a tag "<br>" para fazer a quebra de linha na exibição final e a tag "\n" para fazer a quebra de linha 
-no código HTML, unido por um ponto, que serve para fazer a concatenção.*/
+//Impressão de variável com quebra de linha.
 
 echo $World."<br>\n";
 
-//Impressão da mensagem do que irá acontecer a seguir, utilizando a tag "<strong>", para que a mensagem exibida esteja em negrito.
+//Impressão de mensagem.
 
 echo '<strong>Impressão da variável "$Ponto" :</strong>'."<br>\n";
 
-//Criação da variável "$Ponto", que terá a função de armazenar "!!!".
+//Criação de variável.
 
 $Ponto = "!!!";
 
-//Impressão da variável "$Ponto", utilizado o "<br>\n" para fazer a quebra de linha.
+//Impressão de variável.
 
 echo $Ponto."<br>\n";
 
-//Impressão da mensagem do que irá acontecer a seguir em negrito.
+//Impressão de mensagem.
 
 echo '<strong>Impressão da junção das variáveis "$Hello","$World","$Ponto" :</strong>'."<br>\n";
 
-//Impressão das variáveis "$Hello", "$World" e "$Ponto", utilizando aspas com espaço para fazer a separação e o ponto para a concatenação.
+//Impressão de variáveis.
 
 echo $Hello." ".$World." ".$Ponto;
+
+exit;
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// echo = Imprimir mensagem.
+
+// <br> = Quebra de linha na exibição final, deve ser usado dentro de aspas, simples ou duplas.
+
+// \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas.
+
+// exit = Serve para que o código pare de ser interpretado.
+
+// <strong> = Deixa o texto escrito em negrito, deve ser fechado ao final do texto, deve ser utilizado dentro de aspas, simples ou duplas.
+
+// . = É utilizado para fazer a concatenação de duas variáveis, ou um variável e um texto, ou dois textos por exemplo.
 
 ?>

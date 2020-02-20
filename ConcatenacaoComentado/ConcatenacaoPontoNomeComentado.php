@@ -1,36 +1,38 @@
 <?php
 
-//Criado por José Augusto Chaves Izabel
+//Criado e atualizado por José Augusto Chaves Izabel
 
 //18/02/2020
 
-//Código criado com a intenção de treinar a concatenação utilizando o ".".
+//Impressão de nome com uso de variáveis.
 
-//Criação da variável "$Nome".
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Criação de variável.
 
 $Nome = "José";
 
-//Impressão da mensagem do que irá acontecer a seguir, com uso da tag "<strong>" para deixar o texto em negrito, e das tags de quebra de linha "<br>\n".
+//Impressão de mensagem.
 
 echo '<strong>Impressão da variável $Nome :</strong>'."<br>\n";
 
-//Impressão da variável "$Nome".
+//Impressão de variável.
 
 echo $Nome;
 
-//Quebra de linha utilizando o "<br>" para quebrar a linha na exibição final, e o "\n" para quebrar a linha no HTML gerado.
+//Quebra de linha.
 
 echo "<br>\n";
 
-//Criação da variável "$Nome2";
+//Criação de variável;
 
 $Nome2 = "Augusto";
 
-//Impressão da mensagem sobre o que irá acontecer a seguir.
+//Impressão de mensagem.
 
 echo '<strong>Impressão da variável $Nome2 :</strong>'."<br>\n";
 
-//Impressão da variável "$Nome2".
+//Impressão de variável.
 
 echo $Nome2;
 
@@ -38,15 +40,15 @@ echo $Nome2;
 
 echo "<br>\n";
 
-//Criação da variável "$Sobrenome", a qual terá a função de guardar a string "Chaves".
+//Criação de variável.
 
 $Sobrenome = "Chaves";
 
-//Impressão da mensagem do que acontecerá a seguir.
+//Impressão de mensagem.
 
 echo '<strong>Impressão da variável $Sobrenome :</strong>'."<br>\n";
 
-//Impressão da variável "$Sobrenome".
+//Impressão de variável.
 
 echo $Sobrenome;
 
@@ -54,15 +56,15 @@ echo $Sobrenome;
 
 echo "<br>\n";
 
-//Criação da variável "$Sobrenome2" que terá como função armazenar a variável "Izabel".
+//Criação de variável.
 
 $Sobrenome2 = "Izabel";
 
-//Impressão da mensagem do que irá acontecer a seguir, com uso da tag "<strong>", que tem como função deixar o texto em negrito.
+//Impressão de mensagem.
 
 echo '<strong>Impressão da variável $Sobrenome2 :</strong>'."<br>\n";
 
-//Impressão da variável "$Sobrenome2".
+//Impressão de variável.
 
 echo $Sobrenome2;
 
@@ -70,15 +72,15 @@ echo $Sobrenome2;
 
 echo "<br>\n";
 
-//Criação da variável "$NomeCompleto", que terá como função armazenar o valor das variáveis "Nome" e "$Nome2".
+//Criação de variável.
 
 $NomeCompleto = $Nome." ".$Nome2;
 
-//Impressão da mensagem do que irá acontecer a seguir.
+//Impressão de mensagem.
 
 echo '<strong>Impressão da variável $NomeCompleto :</strong>'."<br>\n";
 
-//Impressão da variável "$NomeCompleto".
+//Impressão de variável.
 
 echo $NomeCompleto;
 
@@ -86,15 +88,15 @@ echo $NomeCompleto;
 
 echo "<br>\n";
 
-//Criação da variável "$SobrenomeCompleto", que terá como função armazenar as variáves "$Sobrenome" e "$Sobrenome2".
+//Criação de variável.
 
 $SobrenomeCompleto = $Sobrenome." ".$Sobrenome2;
 
-//Impressão da mensagem do que irá acontecer a seguir.
+//Impressão de mensagem.
 
 echo '<strong>Impressão da variável $SobrenomeCompleto :</strong>'."<br>\n";
 
-//Impressão da variável "$SobrenomeCompleto".
+//Impressão de variável.
 
 echo $SobrenomeCompleto;
 
@@ -102,16 +104,32 @@ echo $SobrenomeCompleto;
 
 echo "<br>\n";
 
-//Criação da variável "$NomesCompletos", que terá a função de armazenar os valores das variáveis "$NomeCompleto" e "SobrenomeCompleto".
+//Criação de variável.
 
 $NomesCompletos = $NomeCompleto." ".$SobrenomeCompleto;
 
-//Impressão da variável da mensagem do que irá acontecer a seguir, com uso da tag "<strong>", para que o texto fique em negrito.
+//Impressão de variável.
 
 echo "<strong>Impressão do nome completo do usuário :</strong><br>\n";
 
-//Impressão da variável "$NomesCompletos"
+//Impressão de variável.
 
 echo $NomesCompletos;
+
+exit;
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// echo = Imprimir mensagem.
+
+// <br> = Quebra de linha na exibição final, deve ser usado dentro de aspas, simples ou duplas.
+
+// \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas.
+
+// exit = Serve para que o código pare de ser interpretado.
+
+// <strong> = Deixa o texto escrito em negrito, deve ser fechado ao final do texto, deve ser utilizado dentro de aspas, simples ou duplas.
+
+// . = É utilizado para fazer a concatenação de duas variáveis, ou um variável e um texto, ou dois textos por exemplo.
 
 ?>
