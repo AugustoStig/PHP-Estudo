@@ -1,5 +1,7 @@
 <?php
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //Criado e atualizado por José Augusto Chaves Izabel
 
 //17/02/2020
@@ -8,7 +10,7 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criação da variável.
+//Criação de variável.
 
 $Hello = "Hello";
 
@@ -16,8 +18,7 @@ $Hello = "Hello";
 
 echo '<strong>Impressão da variável "$Hello" :</strong>'."<br>\n";
 
-
-//Impressão de variável com quebra de linha.
+//Impressão de variável e quebra de linha.
 
 echo $Hello."<br>\n";
 
@@ -29,7 +30,7 @@ $World = "World";
 
 echo '<strong>Impressão da variável "$World" :</strong>'."<br>\n";
 
-//Impressão de variável com quebra de linha.
+//Impressão de variável e quebra de linha.
 
 echo $World."<br>\n";
 
@@ -53,6 +54,8 @@ echo '<strong>Impressão da junção das variáveis "$Hello","$World","$Ponto" :
 
 echo $Hello." ".$World." ".$Ponto;
 
+//Fim do código.
+
 exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -68,5 +71,7 @@ exit;
 // <strong> = Deixa o texto escrito em negrito, deve ser fechado ao final do texto, deve ser utilizado dentro de aspas, simples ou duplas.
 
 // . = É utilizado para fazer a concatenação de duas variáveis, ou um variável e um texto, ou dois textos por exemplo.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ?>
