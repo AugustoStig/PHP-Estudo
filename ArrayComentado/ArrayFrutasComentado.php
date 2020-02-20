@@ -1,5 +1,7 @@
 <?php
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //Criado e atualizado por José Augusto Chaves Izabel
 
 //17/02/2020
@@ -31,6 +33,8 @@ echo '<strong>Impressão do segundo número chamado no array "Frutas":</strong>'
 //Impressão do número 3 do array.
 
 echo $Frutas [3];
+
+//Fim do código.
 
 exit;
 
@@ -64,6 +68,8 @@ lembrado que o array começa no 0 e não no 1, exemplo:*/
 // \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas.
 
 // exit = Serve para que o código pare de ser interpretado.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ?>
 
