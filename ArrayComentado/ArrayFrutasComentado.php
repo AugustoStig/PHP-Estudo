@@ -8,7 +8,7 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criação do array "$Frutas".
+//Criação do array "Frutas".
 
 $Frutas = array("Maçã", "Banana", "Jaca", "Melão", "Abacate", "Goiaba", "Limão", "Laranja", "Tangerina", "Manga", "Uva");
 
@@ -28,7 +28,7 @@ echo "<br>\n";
 
 echo '<strong>Impressão do segundo número chamado no array "Frutas":</strong>'."<br>\n";
 
-//Impressão do número 3 do array "$Frutas".
+//Impressão do número 3 do array.
 
 echo $Frutas [3];
 

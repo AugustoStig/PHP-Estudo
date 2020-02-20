@@ -4,11 +4,11 @@
 
 //17/02/2020
 
-//Criação do array "$Carros", onde serão salvas 11 marcas de carro, númeradas de 0 a 10.
+//Criação do array "Carros", onde serão salvas 11 marcas de carro, númeradas de 0 a 10.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criação do array "$Carros".
+//Criação do array.
 
 $Carros = array("Fiat", "Ford", "Volkswagen", "BMW", "Mercedes-Benz", "Lada", "Dacia", "Renault", "Citroën", "Peugeot", "Holden");
 
@@ -16,7 +16,7 @@ $Carros = array("Fiat", "Ford", "Volkswagen", "BMW", "Mercedes-Benz", "Lada", "D
 
 echo "<strong>Impressão do primeiro número chamado:</strong><br>\n";
 
-//Impressão de número do array "$Carros", número 3.
+//Impressão do número 3 do array.
 
 echo $Carros[3];
 
@@ -28,7 +28,7 @@ echo "<br>\n";
 
 echo "<strong>Impressão do segundo número chamado:</strong><br>\n";
 
-//Impressão de número do array "$Carros", número 7.
+//Impressão do número 7 do array "$Carros".
 
 echo $Carros[7];
 

@@ -1,18 +1,18 @@
 <?php
 
-//Criado por José Augusto Chaves Izabel
+//Criado e atualizado por José Augusto Chaves Izabel
 
 //17/02/2020
 
-//Criação de dois arrays, um com nomes e um com cores.
+//Criação de dois arrays, um com nomes e outro com cores.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criação do array "$Cores".
+//Criação do array "Cores".
 
 $Cores = array("Azul", "Verde", "Vermelho", "Amarelo", "Roxo", "Preto", "Cinza", "Branco", "Laranja", "Bege", "Lilás", "Rosa");
 
-//Criação do array "$Nomes".
+//Criação do array "Nomes".
 
 $Nomes = array("Maria", "Edna", "José", "Augusto", "Almir", "Ana", "Luisa", "Roberto", "Ricardo", "Luciana", "Natália", "João");
 
@@ -20,7 +20,7 @@ $Nomes = array("Maria", "Edna", "José", "Augusto", "Almir", "Ana", "Luisa", "Ro
 
 echo '<strong>Impressão do primeiro número chamado no array "Cores":</strong>'."<br>\n";
 
-//Impressão do número 7 do array "$Cores".
+//Impressão do número 7 do array "Cores".
 
 echo $Cores[7];
 
@@ -32,7 +32,7 @@ echo "<br>\n";
 
 echo '<strong>Impressão do primeiro número chamado no array "Nomes":</strong>'."<br>\n";
 
-//Impressão do número 3 do array "$Nomes".
+//Impressão do número 3 do array "Nomes".
 
 echo $Nomes[3];
 
@@ -44,7 +44,7 @@ echo "<br>\n";
 
 echo '<strong>Impressão do segundo número chamado no array "Cores":</strong>'."<br>\n";
 
-//Impressão do número 3 do array "$Cores".
+//Impressão do número 3 do array "Cores".
 
 echo $Cores[3];
 
@@ -56,7 +56,7 @@ echo "<br>\n";
 
 echo '<strong>Impressão do segundo número chamado no array "Nomes":</strong>'."<br>\n";
 
-//Impressão do número 7 do array "$Nomes".
+//Impressão do número 7 do array "Nomes".
 
 echo $Nomes[7];
 
