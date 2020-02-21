@@ -12,7 +12,7 @@
 
 //Criação do array "Frutas".
 
-$Frutas = array("Maçã", "Banana", "Jaca", "Melão", "Abacate", "Goiaba", "Limão", "Laranja", "Tangerina", "Manga", "Uva");
+$Fruit = array("Maçã","Banana","Jaca","Melão","Abacate","Goiaba","Limão","Laranja","Tangerina","Manga","Uva");
 
 //Impressão de mensagem.
 
@@ -20,7 +20,7 @@ echo '<strong>Impressão do primeiro número chamado no array "Frutas":</strong>
 
 //Impressão do número 1 do array.
 
-echo $Frutas[1];
+echo $Fruit[1];
 
 //Quebra de linha.
 
@@ -32,7 +32,7 @@ echo '<strong>Impressão do segundo número chamado no array "Frutas":</strong>'
 
 //Impressão do número 3 do array.
 
-echo $Frutas [3];
+echo $Fruit[3];
 
 //Fim do código.
 

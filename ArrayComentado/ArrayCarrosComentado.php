@@ -12,7 +12,7 @@
 
 //Criação do array "Carros".
 
-$Carros = array("Fiat", "Ford", "Volkswagen", "BMW", "Mercedes-Benz", "Lada", "Dacia", "Renault", "Citroën", "Peugeot", "Holden");
+$Car = array("Fiat","Ford","Volkswagen","BMW","Mercedes-Benz","Lada","Dacia","Renault","Citroën","Peugeot","Holden");
 
 //Impressão de mensagem.
 
@@ -20,7 +20,7 @@ echo "<strong>Impressão do primeiro número chamado:</strong><br>\n";
 
 //Impressão do número 3 do array.
 
-echo $Carros[3];
+echo $Car[3];
 
 //Quebra de linha.
 
@@ -32,7 +32,7 @@ echo "<strong>Impressão do segundo número chamado:</strong><br>\n";
 
 //Impressão do número 7 do array "$Carros".
 
-echo $Carros[7];
+echo $Car[7];
 
 //Fim do código.
 

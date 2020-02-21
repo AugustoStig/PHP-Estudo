@@ -12,11 +12,11 @@
 
 //Criação do array "Cores".
 
-$Cores = array("Azul", "Verde", "Vermelho", "Amarelo", "Roxo", "Preto", "Cinza", "Branco", "Laranja", "Bege", "Lilás", "Rosa");
+$Color = array("Azul","Verde","Vermelho","Amarelo","Roxo","Preto","Cinza","Branco","Laranja","Bege","Lilás","Rosa");
 
 //Criação do array "Nomes".
 
-$Nomes = array("Maria", "Edna", "José", "Augusto", "Almir", "Ana", "Luisa", "Roberto", "Ricardo", "Luciana", "Natália", "João");
+$Name = array("Maria","Edna","José","Augusto","Almir","Ana","Luisa","Roberto","Ricardo","Luciana","Natália","João");
 
 //Impressão de mensagem.
 
@@ -24,7 +24,7 @@ echo '<strong>Impressão do primeiro número chamado no array "Cores":</strong>'
 
 //Impressão do número 7 do array "Cores".
 
-echo $Cores[7];
+echo $Color[7];
 
 //Quebra de linha.
 
@@ -36,7 +36,7 @@ echo '<strong>Impressão do primeiro número chamado no array "Nomes":</strong>'
 
 //Impressão do número 3 do array "Nomes".
 
-echo $Nomes[3];
+echo $Name[3];
 
 //Quebra de linha.
 
@@ -48,7 +48,7 @@ echo '<strong>Impressão do segundo número chamado no array "Cores":</strong>'.
 
 //Impressão do número 3 do array "Cores".
 
-echo $Cores[3];
+echo $Color[3];
 
 //Quebra de linha.
 
@@ -60,7 +60,7 @@ echo '<strong>Impressão do segundo número chamado no array "Nomes":</strong>'.
 
 //Impressão do número 7 do array "Nomes".
 
-echo $Nomes[7];
+echo $Name[7];
 
 //Fim do código.
 
