@@ -1,37 +1,54 @@
 <?php
 
-//Criado por José Augusto Chaves Izabel
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Criado e atualizado por José Augusto Chaves Izabel
 
 //18/02/2020
 
-//Código criado com a intenção de testar a resposta do "var_dump" "True" ou "False".
+//Uso do "var_dump" com uso de um ">".
 
-//Criação da variável "$Valor1", que será igual a "10".
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-$Valor1 = 10;
+//Criação de variável.
 
-//Criaão da variável "$Valor2", que será igual a "20".
+$FirstValue = 10;
 
-$Valor2 = 20;
+//Criação de variável.
 
-//Mensagem informando sobre o valor da variável "$Valor1".
+$SecondValue = 20;
 
-echo "<strong>Valor 1 é igual á $Valor1.</strong><br>\n";
+//Impressão de mensagem.
 
-//Mensagem informando sobre o valor da variável "$Valor2".
+echo "<strong>Valor 1 é igual á $FirstValue.</strong><br>\n";
 
-echo "<strong>Valor 2 é igual á $Valor2.</strong><br>\n";
+//Impressão de mensagem.
 
-//Quebra de linha, utilizando a tag "<br>" para fazer a quebra visual e a tag "\n" para fazer a quebra no HTML que será gerado a seguir.
+echo "<strong>Valor 2 é igual á $SecondValue.</strong><br>\n";
+
+//Quebra de linha.
 
 echo "<br>\n";
 
-//Impressão da pergunta que será respondida a seguir.
+//Impressão de mensagem.
 
-echo "<strong>$Valor1 é maior que $Valor2?</strong><br>\n";
+echo "<strong>$FirstValue é maior que $SecondValue?</strong><br>\n";
 
-//Uso do "var_dump", para que ele imprima o tipo e valor da variável, que resultará em "booleano" com valor de "true" ou "false"
+//Uso do "var_dump".
 
-var_dump($Valor1>$Valor2);
+var_dump($FirstValue>$SecondValue);
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// echo = Usado para impressão de mansagens ou valores.
+
+// <strong> = Usado para deixar o texto em negrito, ao final da frase deve ser fechado, deve ser usado dentro de aspas, simples ou duplas.
+
+// <br> = Usado para quebrar linha na exibição final do código, usado dentro de aspas, simples ou duplas.
+
+// \n = Usado para quebrar linha no código HTML que será gerado ao final, deve ser usado dentro de aspas, duplas.
+
+// var_dump = Usado para exibir o tipo e valor de uma variável, após chama-lo deve ser abrir parentesis e colocar o nome da variável lá dentro.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>

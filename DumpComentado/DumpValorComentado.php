@@ -1,33 +1,50 @@
 <?php
 
-//Criado por José Augusto Chaves Izabel
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Criado e atualizado por José Augusto Chaves Izabel
 
 //18/02/2020
 
-//Código criado com o objetivo de testar um "var_dump" em uma variável do tipo "float".
+//Uso do "var_dump"
 
-//Criação da variável "$Valor".
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-$Valor = 199.90;
+//Criação de variável.
 
-//Impressão sobre o que irá acontecer a seguir.
+$Value = 199.90;
+
+//Impressão de mensagem.
 
 echo '<strong>Impressão da variável "$Valor" :</strong>'."<br>\n";
 
-//Impressão do valor da variável "$Valor".
+//Impressão de variável.
 
-echo $Valor;
+echo $Value;
 
-//Quebra de linha utilizando a tag "<br>" para quebrar a linha na impressão final da mesma, e o "\n" para quebra a linha no código HTML que será gerado.
+//Quebra de linha.
 
 echo "<br>\n";
 
-//Impressão sobre o que irá acontecer a seguir.
+//Impressão de mensagem.
 
 echo '<strong>Impressão do "var_dump" da variável "$Valor" :</strong>'."<br>\n";
 
-//Impressão do "var_dump" utilizando a variável "$Valor".
+//Impressão do "var_dump".
 
-var_dump($Valor);
+var_dump($Value);
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// echo = Usado para impressão de mansagens ou valores.
+
+// <strong> = Usado para deixar o texto em negrito, ao final da frase deve ser fechado, deve ser usado dentro de aspas, simples ou duplas.
+
+// <br> = Usado para quebrar linha na exibição final do código, usado dentro de aspas, simples ou duplas.
+
+// \n = Usado para quebrar linha no código HTML que será gerado ao final, deve ser usado dentro de aspas, duplas.
+
+// var_dump = Usado para exibir o tipo e valor de uma variável, após chama-lo deve ser abrir parentesis e colocar o nome da variável lá dentro.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>
