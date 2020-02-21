@@ -12,7 +12,7 @@
 
 //Criação de variável.
 
-$Nome = "José";
+$FirstName = "José";
 
 //Impressão de mensagem.
 
@@ -20,7 +20,7 @@ echo '<strong>Impressão da variável $Nome :</strong>'."<br>\n";
 
 //Impressão de variável.
 
-echo $Nome;
+echo $FirstName;
 
 //Quebra de linha.
 
@@ -28,7 +28,7 @@ echo "<br>\n";
 
 //Criação de variável;
 
-$Nome2 = "Augusto";
+$SecondName = "Augusto";
 
 //Impressão de mensagem.
 
@@ -36,7 +36,7 @@ echo '<strong>Impressão da variável $Nome2 :</strong>'."<br>\n";
 
 //Impressão de variável.
 
-echo $Nome2;
+echo $SecondName;
 
 //Quebra de linha.
 
@@ -44,7 +44,7 @@ echo "<br>\n";
 
 //Criação de variável.
 
-$Sobrenome = "Chaves";
+$FirstSurname = "Chaves";
 
 //Impressão de mensagem.
 
@@ -52,7 +52,7 @@ echo '<strong>Impressão da variável $Sobrenome :</strong>'."<br>\n";
 
 //Impressão de variável.
 
-echo $Sobrenome;
+echo $FirstSurname;
 
 //Quebra de linha.
 
@@ -60,7 +60,7 @@ echo "<br>\n";
 
 //Criação de variável.
 
-$Sobrenome2 = "Izabel";
+$SecondSurname = "Izabel";
 
 //Impressão de mensagem.
 
@@ -68,7 +68,7 @@ echo '<strong>Impressão da variável $Sobrenome2 :</strong>'."<br>\n";
 
 //Impressão de variável.
 
-echo $Sobrenome2;
+echo $SecondSurname;
 
 //Quebra de linha.
 
@@ -76,7 +76,7 @@ echo "<br>\n";
 
 //Criação de variável.
 
-$NomeCompleto = $Nome." ".$Nome2;
+$CompleteName = $FirstName." ".$SecondName;
 
 //Impressão de mensagem.
 
@@ -84,7 +84,7 @@ echo '<strong>Impressão da variável $NomeCompleto :</strong>'."<br>\n";
 
 //Impressão de variável.
 
-echo $NomeCompleto;
+echo $CompleteName;
 
 //Quebra de linha.
 
@@ -92,7 +92,7 @@ echo "<br>\n";
 
 //Criação de variável.
 
-$SobrenomeCompleto = $Sobrenome." ".$Sobrenome2;
+$CompleteSurname = $FirstSurname." ".$SecondSurname;
 
 //Impressão de mensagem.
 
@@ -100,7 +100,7 @@ echo '<strong>Impressão da variável $SobrenomeCompleto :</strong>'."<br>\n";
 
 //Impressão de variável.
 
-echo $SobrenomeCompleto;
+echo $CompleteSurname;
 
 //Quebra de linha.
 
@@ -108,7 +108,7 @@ echo "<br>\n";
 
 //Criação de variável.
 
-$NomesCompletos = $NomeCompleto." ".$SobrenomeCompleto;
+$NameSurname = $CompleteName." ".$CompleteSurname;
 
 //Impressão de variável.
 
@@ -116,7 +116,7 @@ echo "<strong>Impressão do nome completo do usuário :</strong><br>\n";
 
 //Impressão de variável.
 
-echo $NomesCompletos;
+echo $NameSurname;
 
 //Fim do código.
 
