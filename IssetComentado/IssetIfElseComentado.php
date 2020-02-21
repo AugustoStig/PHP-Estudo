@@ -1,33 +1,82 @@
 <?php
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 //Criado por José Augusto Chaves Izabel
 
 //12/02/2020
 
-/*Código com a intenção de imprimir um "Hello World!!!", porém, utilizado o "Isset", para que a variável só seja impressa caso exista, testando 
-a existência da mesma.*/
+//Uso do "Isset" em conjunto com o "if" e "else".
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Criação de variável.
 
 $Nome = "José Augusto Chaves Izabel";
+
+//Criação de variável.
+
 $Nascimento = 1999;
 
-//Uso do "Isset", utilizado um "if" para que se a variável "HelloWorld" existir, imprima o que tem nela.
+//Impressão de mensagem.
 
 echo '<strong>Tentativa de impressão da variável "$Nome" e "$Nascimento" :</strong>"'."<br>\n";
+
+//Quebra de linha.
+
 echo "<br>\n";
 
+//Uso do "Isset" em um "if" para testar se "$HelloWorld" existi.
+
 if(isset($Nome)){
+
+    //Impressão de mensagem e quebra de linha.
+
     echo $Nome."<br/>\n";
+
+    //Quebra de linha.
+
     echo "<br>\n";
+
+    //Impressão de mensagem e quebra de linha.
+
     echo "<strong>Passou pelo Isset!!</strong><br>\n";
+
+    //Impressão de mensagem.
+
     echo '<strong>A variável $Nome existe!!</strong>';
+
+    //Quebra de linha.
+
     echo "<br>\n";
+
+    //Quebra de linha.
+
     echo "<br>\n";
+
+    //Impressão de variável.
+
     echo $Nascimento;
+    
+    //Quebra de linha.
+    
     echo "<br>\n";
+    
+    //Quebra de linha.
+    
     echo "<br>\n";
 }
+
+//Uso do "else" para testar a existência da variável.
+
 else{
+
+    //Impressão de mensagem.
+
     echo "<strong>Não passou pelo Isset!!</strong><br>\n";
+    
+    //Impressão de mensagem.
+    
     echo '<strong>A variável $Nome não existe!!</strong>';
 };
 
@@ -42,4 +91,11 @@ if(isset($Teste)){
         echo "<strong>Não passou pelo Isset!!</strong><br>\n";
         echo '<strong>A variável $Teste não existe!!</strong>';
 };
+
+exit;
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 ?>
