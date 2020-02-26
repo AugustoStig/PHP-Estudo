@@ -1,72 +1,73 @@
 <?php
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Criado e atualizado por José Augusto Chaves Izabel
+
+// 17/02/2020
+
+// Criação de dois arrays, um com nomes e outro com cores.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criado e atualizado por José Augusto Chaves Izabel
-
-//17/02/2020
-
-//Criação de dois arrays, um com nomes e outro com cores.
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-//Criação do array "Cores".
+// Criação do array "Cores".
 
 $Color = array("Azul","Verde","Vermelho","Amarelo","Roxo","Preto","Cinza","Branco","Laranja","Bege","Lilás","Rosa");
 
-//Criação do array "Nomes".
+// Criação do array "Nomes".
 
 $Name = array("Maria","Edna","José","Augusto","Almir","Ana","Luisa","Roberto","Ricardo","Luciana","Natália","João");
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão do primeiro número chamado no array "Cores":</strong>'."<br>\n";
 
-//Impressão do número 7 do array "Cores".
+// Impressão do número 7 do array "Cores".
 
 echo $Color[7];
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão do primeiro número chamado no array "Nomes":</strong>'."<br>\n";
 
-//Impressão do número 3 do array "Nomes".
+// Impressão do número 3 do array "Nomes".
 
 echo $Name[3];
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão do segundo número chamado no array "Cores":</strong>'."<br>\n";
 
-//Impressão do número 3 do array "Cores".
+// Impressão do número 3 do array "Cores".
 
 echo $Color[3];
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Impressão de mesnagem.
+// Impressão de mesnagem.
 
 echo '<strong>Impressão do segundo número chamado no array "Nomes":</strong>'."<br>\n";
 
-//Impressão do número 7 do array "Nomes".
+// Impressão do número 7 do array "Nomes".
 
 echo $Name[7];
 
-//Fim do código.
+// Fim do código.
 
 exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//EXEMPLO:
 
 // Para criar um array, deve ser criar a variável primeiro, exemplo:
 
@@ -89,6 +90,8 @@ lembrado que o array começa no 0 e não no 1, exemplo:*/
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//LEGENDA COMANDOS:
+
 // echo = Imprimir mensagem.
 
 // <br> = Quebra de linha na exibição final, deve ser usado dentro de aspas, simples ou duplas.
@@ -99,4 +102,11 @@ lembrado que o array começa no 0 e não no 1, exemplo:*/
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// LEGENDA VARIÁVEIS
+
+// $Color = Array com cores diversas. 
+
+// $Name = Array com nomes diversos.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>
