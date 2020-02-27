@@ -1,128 +1,129 @@
 <?php
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Criado e atualizado por José Augusto Chaves Izabel
+
+// 18/02/2020
+
+// Impressão de nome completo com uso de variáveis.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criado e atualizado por José Augusto Chaves Izabel
-
-//18/02/2020
-
-//Impressão de nome com uso de variáveis.
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-//Criação de variável.
+// Criação de variável.
 
 $FirstName = "José";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável $Nome :</strong>'."<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
 echo $FirstName;
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Criação de variável;
+// Criação de variável;
 
 $SecondName = "Augusto";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável $Nome2 :</strong>'."<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
 echo $SecondName;
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Criação de variável.
+// Criação de variável.
 
 $FirstSurname = "Chaves";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável $Sobrenome :</strong>'."<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
 echo $FirstSurname;
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Criação de variável.
+// Criação de variável.
 
 $SecondSurname = "Izabel";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável $Sobrenome2 :</strong>'."<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
 echo $SecondSurname;
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Criação de variável.
+// Criação de variável.
 
 $CompleteName = $FirstName." ".$SecondName;
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável $NomeCompleto :</strong>'."<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
 echo $CompleteName;
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Criação de variável.
+// Criação de variável.
 
 $CompleteSurname = $FirstSurname." ".$SecondSurname;
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável $SobrenomeCompleto :</strong>'."<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
 echo $CompleteSurname;
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Criação de variável.
+// Criação de variável.
 
 $NameSurname = $CompleteName." ".$CompleteSurname;
 
-//Impressão de variável.
+// Impressão de variável.
 
 echo "<strong>Impressão do nome completo do usuário :</strong><br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
 echo $NameSurname;
 
-//Fim do código.
+// Fim do código.
 
 exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// LEGENDA DE COMANDOS :
 
 // echo = Imprimir mensagem.
 
@@ -138,4 +139,21 @@ exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// LEGENDA DE VARIÁVEIS :
+
+// $FirstName = Recebe uam string, "José".
+
+// $SecondName = Recebe uma string, "Augusto".
+
+// $FirstSurname = Recebe uma string, "Chaves".
+
+// $SecondSurname = Recebe uma string, "Izabel".
+
+// $CompleteName = Recebe o valor das variáveis "$FirstName" e "$SecondName", com uso de um espaço entre elas.
+
+// $CompleteSurname = Recebe o valor das variáveis "$FirstSurname" e "SecondSurname", com uso de um espaço entre elas.
+
+// $NameSurname = Recebe o valor das variáveis "CompleteName" e "$CompleteSurname", com uso de um espaço entre elas.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>
