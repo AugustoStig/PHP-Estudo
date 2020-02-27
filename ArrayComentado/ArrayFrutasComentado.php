@@ -5,7 +5,7 @@
 
 // 17/02/2020
 
-// Criação de um array de frutas, após criado, dois números serão chamados.
+// Criação de um array do array "Fruit", que salvará nomes de frutas, após criado, dois números serão chamados.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -17,7 +17,7 @@ $Fruit = array("Maçã","Banana","Jaca","Melão","Abacate","Goiaba","Limão","La
 
 echo '<strong>Impressão do primeiro número chamado no array "Frutas":</strong>'."<br>\n";
 
-// Impressão do número 1 do array.
+// Impressão do número 1 do array "Fruit".
 
 echo $Fruit[1];
 
@@ -29,7 +29,7 @@ echo "<br>\n";
 
 echo '<strong>Impressão do segundo número chamado no array "Frutas":</strong>'."<br>\n";
 
-// Impressão do número 3 do array.
+// Impressão do número 3 do array "Fruit".
 
 echo $Fruit[3];
 
