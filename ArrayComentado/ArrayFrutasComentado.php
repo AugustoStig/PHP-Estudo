@@ -15,7 +15,7 @@ $Fruit = array("Maçã","Banana","Jaca","Melão","Abacate","Goiaba","Limão","La
 
 // Impressão de mensagem;
 
-echo '<strong>Impressão do primeiro número chamado no array "Frutas":</strong>'."<br>\n";
+echo '<strong>Impressão do primeiro número chamado no array "Fruit":</strong>'."<br>\n";
 
 // Impressão do número 1 do array "Fruit";
 
@@ -25,9 +25,13 @@ echo $Fruit[1];
 
 echo "<br>\n";
 
+// Quebra de linha;
+
+echo "<br>\n";
+
 // Impressão de mensagem;
 
-echo '<strong>Impressão do segundo número chamado no array "Frutas":</strong>'."<br>\n";
+echo '<strong>Impressão do segundo número chamado no array "Fruit":</strong>'."<br>\n";
 
 // Impressão do número 3 do array "Fruit";
 
