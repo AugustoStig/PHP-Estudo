@@ -9,11 +9,11 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Criação do array "Cores".
+// Criação do array "Color".
 
 $Color = array("Azul","Verde","Vermelho","Amarelo","Roxo","Preto","Cinza","Branco","Laranja","Bege","Lilás","Rosa");
 
-// Criação do array "Nomes".
+// Criação do array "Name".
 
 $Name = array("Maria","Edna","José","Augusto","Almir","Ana","Luisa","Roberto","Ricardo","Luciana","Natália","João");
 
@@ -21,7 +21,7 @@ $Name = array("Maria","Edna","José","Augusto","Almir","Ana","Luisa","Roberto","
 
 echo '<strong>Impressão do primeiro número chamado no array "Cores":</strong>'."<br>\n";
 
-// Impressão do número 7 do array "Cores".
+// Impressão do número 7 do array "Color".
 
 echo $Color[7];
 
@@ -33,7 +33,7 @@ echo "<br>\n";
 
 echo '<strong>Impressão do primeiro número chamado no array "Nomes":</strong>'."<br>\n";
 
-// Impressão do número 3 do array "Nomes".
+// Impressão do número 3 do array "Name".
 
 echo $Name[3];
 
@@ -45,7 +45,7 @@ echo "<br>\n";
 
 echo '<strong>Impressão do segundo número chamado no array "Cores":</strong>'."<br>\n";
 
-// Impressão do número 3 do array "Cores".
+// Impressão do número 3 do array "Color".
 
 echo $Color[3];
 
@@ -53,11 +53,11 @@ echo $Color[3];
 
 echo "<br>\n";
 
-// Impressão de mesnagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão do segundo número chamado no array "Nomes":</strong>'."<br>\n";
 
-// Impressão do número 7 do array "Nomes".
+// Impressão do número 7 do array "Name".
 
 echo $Name[7];
 
@@ -67,7 +67,7 @@ exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//EXEMPLO:
+// EXEMPLO :
 
 // Para criar um array, deve ser criar a variável primeiro, exemplo:
 
@@ -90,7 +90,7 @@ lembrado que o array começa no 0 e não no 1, exemplo:*/
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//LEGENDA COMANDOS:
+// LEGENDA DE COMANDOS :
 
 // echo = Imprimir mensagem.
 
@@ -98,11 +98,13 @@ lembrado que o array começa no 0 e não no 1, exemplo:*/
 
 // \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas.
 
+// <strong> </strong> = Serve para deixar o texto em negrito, após usado deve ser fechado, deve ser usado dentro de aspas, simples ou duplas.
+
 // exit = Serve para que o código pare de ser interpretado.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// LEGENDA VARIÁVEIS
+// LEGENDA DE VARIÁVEIS :
 
 // $Color = Array com cores diversas. 
 
