@@ -1,76 +1,77 @@
 <?php
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Criado e atualizado por José Augusto Chaves Izabel
+
+// 12/02/2020
+
+// Uso do var_dump em conjunto com "==" e "===".
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criado e atualizado por José Augusto Chaves Izabel
-
-//12/02/2020
-
-//Uso do var_dump em conjunto com "==" e "===".
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-//Criação de variável.
+// Criação de variável.
 
 $FloatValue = 12.0;
 
-//Criação de variável.
+// Criação de variável.
 
 $IntValue = 12;
 
-//Impressão de mensagem e quebra de linha.
+// Impressão de mensagem e quebra de linha.
 
 echo '<strong>Valor e tipo da variável $Valor1 :</strong>'."<br>\n";
 
-//Impressão de "var_dump".
+// Impressão de "var_dump".
 
 var_dump($FloatValue);
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Valor e tipo da variável $Valor2 :</strong>'."<br>\n";
 
-//Impressão de "var_dump".
+// Impressão de "var_dump".
 
 var_dump($IntValue);
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo "<strong>Valor 1 é igual á $FloatValue.</strong><br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo "<strong>Valor 2 é igual á $IntValue.</strong><br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo "<strong>$FloatValue e $IntValue tem o mesmo valor?</strong><br>\n";
 
-//Impressão de "var_dump".
+// Impressão de "var_dump".
 
 var_dump($FloatValue==$IntValue);
 
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo "<strong>$FloatValue e $IntValue tem o mesmo valor e tipo?</strong><br>\n";
 
-//Impressão de "var_dump".
+// Impressão de "var_dump".
 
 var_dump($FloatValue===$IntValue);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// LEGENDA DE COMANDOS :
 
 // echo = Usado para impressão de mansagens ou valores.
 
@@ -85,6 +86,14 @@ var_dump($FloatValue===$IntValue);
 // == = Usado para comparar o valor de duas variáveis.
 
 // === = Usado para comparar o valor e tipo de duas variáveis.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// LEGENDA DE VARIÁVEIS :
+
+// $IntValue = Recebe um Int, 12.
+
+// $FloatValue = Recebe um Float, 12.0.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>
