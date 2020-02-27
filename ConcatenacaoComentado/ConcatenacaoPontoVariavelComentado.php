@@ -2,67 +2,69 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criado e atualizado por José Augusto Chaves Izabel.
+// Criado e atualizado por José Augusto Chaves Izabel.
 
-//18/02/2020
+// 18/02/2020
 
-//Impressão de um "Hello World!!!" com variáveis diferentes.
+// Impressão de um "Hello World!!!" com uso de variáveis.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criação de variável.
+// Criação de variável.
 
 $Hello = "Hello";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável $Hello :</strong>'."<br>\n";
 
-//Impressão de variável e quebra de linha.
+// Impressão de variável e quebra de linha.
 
 echo $Hello."<br>\n";
 
-//Criação de variável.
+// Criação de variável.
 
 $World = "World";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável $World :</strong>'."<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
 echo $World."<br>\n";
 
-//Criação da variável.
+// Criação da variável.
 
 $Ponto = "!!!";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável $Ponto :</strong>'."<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
 echo $Ponto."<br>\n";
 
-//Criação da variável.
+// Criação da variável.
 
 $HelloWorld = $Hello." ".$World.$Ponto;
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável $HelloWorld :</strong>'."<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
 echo $HelloWorld;
 
-//Fim do código.
+// Fim do código.
 
 exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// LEGENDA DE COMANDOS :
 
 // echo = Imprimir mensagem.
 
@@ -72,9 +74,19 @@ exit;
 
 // exit = Serve para que o código pare de ser interpretado.
 
-// <strong> = Deixa o texto escrito em negrito, deve ser fechado ao final do texto, deve ser utilizado dentro de aspas, simples ou duplas.
+// <strong> </strong> = Deixa o texto escrito em negrito, deve ser fechado ao final do texto, deve ser utilizado dentro de aspas, simples ou duplas.
 
 // . = É utilizado para fazer a concatenação de duas variáveis, ou um variável e um texto, ou dois textos por exemplo.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// LEGENDA DE VARIÁVEIS :
+
+// $Hello = Salva uma string, "Hello".
+
+// $World = Salva uma string, "World".
+
+// $Ponto = Salva uma string, "!!!"
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
