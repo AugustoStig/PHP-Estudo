@@ -1,120 +1,121 @@
 <?php
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Criado e atualizado por José Augusto Chaves Izabel
+
+// 12/02/2020
+
+// Uso do "var_dump" com "<=>", conhecido como starship.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criado e atualizado por José Augusto Chaves Izabel
+// Criação de variável.
 
-//12/02/2020
+$FirstValue = 10;
 
-//Uso do "var_dump" com "<=>", conhecido como starship.
+// Criação de variável.
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+$SecondValue = 20;
 
-//Criação de variável.
+// Criação de variável.
 
-$Valor1 = 10;
+$ThirdValue = 15;
 
-//Criação de variável.
+// Criação de variável.
 
-$Valor2 = 20;
+$FourthValue = 15;
 
-//Criação de variável.
+// Criação de variável.
 
-$Valor3 = 15;
+$FifthValue = 50;
 
-//Criação de variável.
+// Criação de variável.
 
-$Valor4 = 15;
+$SixthValue = 25;
 
-//Criação de variável.
+// Impressão de variável.
 
-$Valor5 = 50;
+echo "<strong>Valor 1 =</strong> $FirstValue.<br>\n";
 
-//Criação de variável.
+// Impressão de variável e quebra de linha.
 
-$Valor6 = 25;
+echo "<strong>Valor 2 =</strong> $SecondValue.<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
-echo "<strong>Valor 1 =</strong> $Valor1.<br>\n";
+echo "<strong>Valor 3 =</strong> $ThirdValue.<br>\n";
 
-//Impressão de variável e quebra de linha.
+// Impressão de variável.
 
-echo "<strong>Valor 2 =</strong> $Valor2.<br>\n";
+echo "<strong>Valor 4 =</strong> $FourthValue.<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
-echo "<strong>Valor 3 =</strong> $Valor3.<br>\n";
+echo "<strong>Valor 5 =</strong> $FifthValue.<br>\n";
 
-//Impressão de variável.
+// Impressão de variável.
 
-echo "<strong>Valor 4 =</strong> $Valor4.<br>\n";
+echo "<strong>Valor 6 =</strong> $SixthValue.<br>\n";
 
-//Impressão de variável.
+// Impressão de mensagem.
 
-echo "<strong>Valor 5 =</strong> $Valor5.<br>\n";
+echo "<strong>$FirstValue é maior que $SecondValue?</strong><br\n>";
 
-//Impressão de variável.
+// Impressão de "var_dump".
 
-echo "<strong>Valor 6 =</strong> $Valor6.<br>\n";
+var_dump($FirstValue<=>$SecondValue);
 
-//Impressão de mensagem.
-
-echo "<strong>$Valor1 é maior que $Valor2?</strong><br\n>";
-
-//Impressão de "var_dump".
-
-var_dump($Valor1<=>$Valor2);
-
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
-echo "<strong>$Valor3 é maior que $Valor4?</strong><br>\n";
+echo "<strong>$ThirdValue é maior que $FourthValue?</strong><br>\n";
 
-//Impressão de "var_dump".
+// Impressão de "var_dump".
 
-var_dump($Valor3<=>$Valor4);
+var_dump($ThirdValue<=>$FourthValue);
 
-//Quebra de linha.
-
-echo "<br>\n";
-
-//Impressão de mensagem.
-
-echo "<strong>$Valor5 é maior que $Valor6?</strong><br>\n";
-
-//Impressão de "var_dump".
-
-var_dump($Valor5<=>$Valor6);
-
-//Quebra de linha.
+// Quebra de linha.
 
 echo "<br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
+
+echo "<strong>$FifthValue é maior que $SixthValue?</strong><br>\n";
+
+// Impressão de "var_dump".
+
+var_dump($FifthValue<=>$SixthValue);
+
+// Quebra de linha.
+
+echo "<br>\n";
+
+// Impressão de mensagem.
 
 echo "<strong>Legenda:</strong><br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo "Caso o primeiro seja maior que o segundo, resulta em: <strong>-1.</strong><br>\n";
 
-//Impressão de legenda.
+// Impressão de legenda.
 
 echo "Caso os dois sejam iguais, resulta em: <strong>0.</strong><br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo "Caso o segundo seja maior que o primeiro, resulta em:<strong> 1.</strong><br\n>";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// LEGENDA DE COMANDOS :
+
 // echo = Usado para impressão de mansagens ou valores.
 
-// <strong> = Usado para deixar o texto em negrito, ao final da frase deve ser fechado, deve ser usado dentro de aspas, simples ou duplas.
+// <strong> </strong>= Usado para deixar o texto em negrito, ao final da frase deve ser fechado, deve ser usado dentro de aspas, simples ou duplas.
 
 // <br> = Usado para quebrar linha na exibição final do código, usado dentro de aspas, simples ou duplas.
 
@@ -123,6 +124,22 @@ echo "Caso o segundo seja maior que o primeiro, resulta em:<strong> 1.</strong><
 // var_dump = Usado para exibir o tipo e valor de uma variável, após chama-lo deve ser abrir parentesis e colocar o nome da variável lá dentro.
 
 // <=> = Usado para comparar se uma variável é maior, menor ou igual a outra.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// LEGENDA DE VARIÁVEIS :
+
+// $FirstValue = Recebe um Int, 10.
+
+// $SecondValue = Recebe um Int, 20.
+
+// $ThirdValue = Recebe um Int, 15.
+
+// $FourthValue = Recebe um Int, 15.
+
+// $FifthValue = Recebe um Int, 50.
+
+// $SixthValue = Recebe um Int, 25.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>
