@@ -5,7 +5,7 @@
 
 // 17/02/2020;
 
-// Criação de dois arrays, "Name" que salvará nomes de pessoas e "Color"que salvará cores;
+// Criação de dois arrays, "Name" que salvará nomes de pessoas e "Color" que salvará cores;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -19,7 +19,7 @@ $Name = array("Maria","Edna","José","Augusto","Almir","Ana","Luisa","Roberto","
 
 // Impressão de mensagem;
 
-echo '<strong>Impressão do primeiro número chamado no array "Cores":</strong>'."<br>\n";
+echo '<strong>Impressão do primeiro número chamado no array "Color" :</strong>'."<br>\n";
 
 // Impressão do número 7 do array "Color";
 
@@ -29,9 +29,13 @@ echo $Color[7];
 
 echo "<br>\n";
 
+// Quebra de linha;
+
+echo "<br>\n";
+
 // Impressão de mensagem;
 
-echo '<strong>Impressão do primeiro número chamado no array "Nomes":</strong>'."<br>\n";
+echo '<strong>Impressão do primeiro número chamado no array "Name" :</strong>'."<br>\n";
 
 // Impressão do número 3 do array "Name";
 
@@ -41,9 +45,13 @@ echo $Name[3];
 
 echo "<br>\n";
 
+//Quebra de linha;
+
+echo "<br>\n";
+
 // Impressão de mensagem;
 
-echo '<strong>Impressão do segundo número chamado no array "Cores":</strong>'."<br>\n";
+echo '<strong>Impressão do segundo número chamado no array "Color" :</strong>'."<br>\n";
 
 // Impressão do número 3 do array "Color";
 
@@ -53,9 +61,13 @@ echo $Color[3];
 
 echo "<br>\n";
 
+// Quebra de linha;
+
+echo "<br>\n";
+
 // Impressão de mensagem;
 
-echo '<strong>Impressão do segundo número chamado no array "Nomes":</strong>'."<br>\n";
+echo '<strong>Impressão do segundo número chamado no array "Name" :</strong>'."<br>\n";
 
 // Impressão do número 7 do array "Name";
 
