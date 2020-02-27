@@ -2,63 +2,65 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criado e atualizado por José Augusto Chaves Izabel
+// Criado e atualizado por José Augusto Chaves Izabel
 
-//17/02/2020
+// 17/02/2020
 
-//Impressão de um "Hello World !!!" com uso das variáveis.
+// Impressão de um "Hello World !!!" com uso das variáveis.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criação de variável.
+// Criação de variável.
 
 $Hello = "Hello";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável "$Hello" :</strong>'."<br>\n";
 
-//Impressão de variável e quebra de linha.
+// Impressão de variável e quebra de linha.
 
 echo $Hello."<br>\n";
 
-//Criação de variável.
+// Criação de variável.
 
 $World = "World";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
 echo '<strong>Impressão da variável "$World" :</strong>'."<br>\n";
 
-//Impressão de variável e quebra de linha.
+// Impressão de variável e quebra de linha.
 
 echo $World."<br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
-echo '<strong>Impressão da variável "$Ponto" :</strong>'."<br>\n";
+echo '<strong>Impressão da variável "$Point" :</strong>'."<br>\n";
 
-//Criação de variável.
+// Criação de variável.
 
-$Ponto = "!!!";
+$Point = "!!!";
 
-//Impressão de variável.
+// Impressão de variável.
 
-echo $Ponto."<br>\n";
+echo $Point."<br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem.
 
-echo '<strong>Impressão da junção das variáveis "$Hello","$World","$Ponto" :</strong>'."<br>\n";
+echo '<strong>Impressão da junção das variáveis "$Hello","$World","$Point" :</strong>'."<br>\n";
 
-//Impressão de variáveis.
+// Impressão de variáveis.
 
-echo $Hello." ".$World." ".$Ponto;
+echo $Hello." ".$World." ".$Point;
 
-//Fim do código.
+// Fim do código.
 
 exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// LEGENDA DE COMANDOS :
 
 // echo = Imprimir mensagem.
 
@@ -74,4 +76,13 @@ exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// LEGENDA DE VARIÁVEIS :
+
+// $Hello = Recebe uma string, "Hello".
+
+// $World = Recebe uma string, "World".
+
+// $Point = Recebe uma string, "!!!"
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>
