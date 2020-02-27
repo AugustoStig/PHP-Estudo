@@ -15,7 +15,7 @@ $Car = array("Fiat","Ford","Volkswagen","BMW","Mercedes-Benz","Lada","Dacia","Re
 
 // Impressão de mensagem;
 
-echo "<strong>Impressão do primeiro número chamado:</strong><br>\n";
+echo '<strong>Impressão do primeiro número chamado do array "Car" :</strong>'."<br>\n";
 
 // Impressão do número 3 do array "Car";
 
@@ -25,9 +25,13 @@ echo $Car[3];
 
 echo "<br>\n";
 
+// Quebra de linha;
+
+echo "<br>\n";
+
 // Impressão de mensagem;
 
-echo "<strong>Impressão do segundo número chamado:</strong><br>\n";
+echo '<strong>Impressão do segundo número chamado do array "Car" :</strong>'."<br>\n";
 
 // Impressão do número 7 do array "$Car";
 
