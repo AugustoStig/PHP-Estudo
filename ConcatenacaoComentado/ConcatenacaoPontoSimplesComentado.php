@@ -11,7 +11,7 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Creation of variable;
+// Variable creation;
 // Criação de variável;
 
 $Hello = "Hello";
@@ -21,12 +21,12 @@ $Hello = "Hello";
 
 echo '<strong>Impressão da variável "$Hello" :</strong>'."<br>\n";
 
-// Print a message and a line break;
+// Message print and line break;
 // Impressão de variável e quebra de linha;
 
 echo $Hello."<br>\n";
 
-// Creation of variable;
+// Variable creation;
 // Criação de variável;
 
 $World = "World";
@@ -36,7 +36,7 @@ $World = "World";
 
 echo '<strong>Impressão da variável "$World" :</strong>'."<br>\n";
 
-// Print a variable and a line break;
+// Variable print and a line break;
 // Impressão de variável e quebra de linha;
 
 echo $World."<br>\n";
@@ -46,12 +46,12 @@ echo $World."<br>\n";
 
 echo '<strong>Impressão da variável "$Point" :</strong>'."<br>\n";
 
-// Creation of variable;
+// Variable creation;
 // Criação de variável;
 
 $Point = "!!!";
 
-// Print of variable;
+// Variable print;
 // Impressão de variável;
 
 echo $Point."<br>\n";
@@ -61,7 +61,7 @@ echo $Point."<br>\n";
 
 echo '<strong>Impressão da junção das variáveis "$Hello","$World","$Point" :</strong>'."<br>\n";
 
-// Print of a variable;
+// Variable print;
 // Impressão de variáveis;
 
 echo $Hello." ".$World." ".$Point;
