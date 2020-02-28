@@ -1,10 +1,10 @@
 <?php
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Created and updated by José Augusto Chaves Izabel;
-// Criado e atualizado por José Augusto Chaves Izabel;
+// Created and updated by José Augusto Chaves Izabel
+// Criado e atualizado por José Augusto Chaves Izabel
 
-// 17/02/2020;
+// 17/02/2020
 
 // Creation of "Fruit" array, will saves fruit names, after created, two numbers will be called;
 // Criação do array "Fruit", que salvará nomes de frutas, após criado, dois números serão chamados;
@@ -16,7 +16,7 @@
 
 $Fruit = array("Maçã","Banana","Jaca","Melão","Abacate","Goiaba","Limão","Laranja","Tangerina","Manga","Uva");
 
-// Message printing;
+// Message print;
 // Impressão de mensagem;
 
 echo '<strong>Impressão do primeiro número chamado no array "Fruit":</strong>'."<br>\n";
@@ -87,7 +87,7 @@ lembrado que o array começa no número 0 e não no número 1, exemplo:*/
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// SUBTITLE OF COMMANDS :
+// COMMANDS SUBTITLE :
 // LEGENDA DE COMANDOS :
 
 // echo = Print message;
@@ -107,7 +107,7 @@ lembrado que o array começa no número 0 e não no número 1, exemplo:*/
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// SUBTITLE OF VARIABLES :
+// VARIABLES SUBTITLE :
 // LEGENDA DE VARIÁVEIS :
 
 // $Fruit = Array with fruit names;
