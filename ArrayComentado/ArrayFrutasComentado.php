@@ -53,29 +53,6 @@ exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// EXEMPLO :
-
-// Para criar um array, deve ser criar a variável primeiro, exemplo:
-
-// $Exemplo = ;
-
-// Após deve informar que aquela variável será um array, exemplo:
-
-// $Exemplo = array;
-
-// Depois abrir parentesis e colocar os valores que irão compor aquela variável, caso seja string, colocar entre aspas, exemplo:
-
-// $Exemplo = array(1, 2, 3, 4, 5, "augusto", "teste");
-
-// Array criado;
-
-/* Para chamar algum número do array, escreva a a variável em um echo, após a variável coloque o número que deseja chamar entre colchetes, 
-lembrado que o array começa no 0 e não no 1, exemplo:*/
-
-// echo $Exemplo[3];
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 // EXAMPLE :
 // EXEMPLO :
 
@@ -107,6 +84,26 @@ lembrado que o array começa no número 0 e não no número 1, exemplo:*/
 
 // echo $Example[3];
 // echo $Exemplo[3];
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// SUBTITLE OF COMMANDS :
+// LEGENDA DE COMANDOS :
+
+// echo = Print message;
+// echo = Imprimir mensagem;
+
+// <br> = Line break on final exibition, mus be used into quotation marks, single or double;
+// <br> = Quebra de linha na exibição final, deve ser usado dentro de aspas, simples ou duplas;
+
+// \n = Line break in HTML code generated after, must be used into quotation marks, double;
+// \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas;
+
+// <strong> </strong> = Used to leave the text blank, after using it, it must be used inside quotes, single or double;
+// <strong> </strong> = Serve para deixar o texto em negrito, após usar deve fechar o mesmo, deve ser usado dentro de aspas, simples ou duplas;
+
+// exit = Used to stop the code from being interpreted;s
+// exit = Serve para que o código pare de ser interpretado;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
