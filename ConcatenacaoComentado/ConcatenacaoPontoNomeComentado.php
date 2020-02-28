@@ -1,159 +1,204 @@
 <?php
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// Created and updated by José Augusto Chaves Izabel
 // Criado e atualizado por José Augusto Chaves Izabel
 
 // 18/02/2020
 
-// Impressão de nome completo com uso de variáveis.
+// Print a complete name with variables;
+// Impressão de nome completo com uso de variáveis;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Criação de variável.
+// Creation of a variable;
+// Criação de variável;
 
 $FirstName = "José";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Impressão da variável $Nome :</strong>'."<br>\n";
 
-// Impressão de variável.
+// Print a variable;
+// Impressão de variável;
 
 echo $FirstName;
 
-// Quebra de linha.
+// Line break;
+// Quebra de linha;
 
 echo "<br>\n";
 
+// Creation of a variable;
 // Criação de variável;
 
 $SecondName = "Augusto";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Impressão da variável $Nome2 :</strong>'."<br>\n";
 
-// Impressão de variável.
+// Print a variable;
+// Impressão de variável;
 
 echo $SecondName;
 
-// Quebra de linha.
+// Line break;
+// Quebra de linha;
 
 echo "<br>\n";
 
-// Criação de variável.
+// Creation of a variable;
+// Criação de variável;
 
 $FirstSurname = "Chaves";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Impressão da variável $Sobrenome :</strong>'."<br>\n";
 
-// Impressão de variável.
+// Print a variable;
+// Impressão de variável;
 
 echo $FirstSurname;
 
-// Quebra de linha.
+// Line break;
+// Quebra de linha;
 
 echo "<br>\n";
 
-// Criação de variável.
+// Creation of variable;
+// Criação de variável;
 
 $SecondSurname = "Izabel";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Impressão da variável $Sobrenome2 :</strong>'."<br>\n";
 
-// Impressão de variável.
+// Print a variable;
+// Impressão de variável;
 
 echo $SecondSurname;
 
-// Quebra de linha.
+// Line break;
+// Quebra de linha;
 
 echo "<br>\n";
 
-// Criação de variável.
+// Creation of a variable;
+// Criação de variável;
 
 $CompleteName = $FirstName." ".$SecondName;
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Impressão da variável $NomeCompleto :</strong>'."<br>\n";
 
-// Impressão de variável.
+// Print a variable;
+// Impressão de variável;
 
 echo $CompleteName;
 
-// Quebra de linha.
+// Line break;
+// Quebra de linha;
 
 echo "<br>\n";
 
-// Criação de variável.
+// Creation a variable;
+// Criação de variável;
 
 $CompleteSurname = $FirstSurname." ".$SecondSurname;
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Impressão da variável $SobrenomeCompleto :</strong>'."<br>\n";
 
-// Impressão de variável.
+// Print a variable;
+// Impressão de variável;
 
 echo $CompleteSurname;
 
-// Quebra de linha.
+// Line break;
+// Quebra de linha;
 
 echo "<br>\n";
 
-// Criação de variável.
+// Creation of a variable;
+// Criação de variável;
 
 $NameSurname = $CompleteName." ".$CompleteSurname;
 
-// Impressão de variável.
+// Print of a variable;
+// Impressão de variável;
 
 echo "<strong>Impressão do nome completo do usuário :</strong><br>\n";
 
-// Impressão de variável.
+// Print a variable;
+// Impressão de variável;
 
 echo $NameSurname;
 
-// Fim do código.
+// End of the code;
+// Fim do código;
 
 exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// SUBTITLE OF COMMANDS :
 // LEGENDA DE COMANDOS :
 
-// echo = Imprimir mensagem.
+// echo = Print message;
+// echo = Imprimir mensagem;
 
-// <br> = Quebra de linha na exibição final, deve ser usado dentro de aspas, simples ou duplas.
+// <br> = Line break on final exibition, must be used into quotation marks, single or double;
+// <br> = Quebra de linha na exibição final, deve ser usado dentro de aspas, simples ou duplas;
 
-// \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas.
+// \n = Line break in the HTML code generated after, must be used into quotation marks, double;
+// \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas;
 
-// exit = Serve para que o código pare de ser interpretado.
+// exit = It serves to stop the code from being interpreted;
+// exit = Serve para que o código pare de ser interpretado;
 
-// <strong> = Deixa o texto escrito em negrito, deve ser fechado ao final do texto, deve ser utilizado dentro de aspas, simples ou duplas.
+// <strong> </strong> = Leave the text written in bold, must be closed at the end of the text, must be used within quotation marks, single or double;
+// <strong> </strong> = Deixa o texto escrito em negrito, deve ser fechado ao final do texto, deve ser utilizado dentro de aspas, simples ou duplas;
 
-// . = É utilizado para fazer a concatenação de duas variáveis, ou um variável e um texto, ou dois textos por exemplo.
+// . = It is used to concatenate two variables, or one variable and one text, or two texts for example;
+// . = É utilizado para fazer a concatenação de duas variáveis, ou um variável e um texto, ou dois textos por exemplo;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// SUBTITLE OF VARIABLES :
 // LEGENDA DE VARIÁVEIS :
 
-// $FirstName = Recebe uam string, "José".
+// $FirstName = Receive a string, "José";
+// $FirstName = Recebe uma string, "José";
 
-// $SecondName = Recebe uma string, "Augusto".
+// $SecondName = Receive a string, "Augusto";
+// $SecondName = Recebe uma string, "Augusto";
 
-// $FirstSurname = Recebe uma string, "Chaves".
+// $FirstSurname = Receive a string, "Chaves";
+// $FirstSurname = Recebe uma string, "Chaves";
 
-// $SecondSurname = Recebe uma string, "Izabel".
+// $SecondSurname = Receive a string, "Izabel";
+// $SecondSurname = Recebe uma string, "Izabel";
 
-// $CompleteName = Recebe o valor das variáveis "$FirstName" e "$SecondName", com uso de um espaço entre elas.
+// $CompleteName = Receive the value of variables "$FirstName" and "$SecondName", using a space between them; 
+// $CompleteName = Recebe o valor das variáveis "$FirstName" e "$SecondName", com uso de um espaço entre elas;
 
-// $CompleteSurname = Recebe o valor das variáveis "$FirstSurname" e "SecondSurname", com uso de um espaço entre elas.
+// $CompleteSurname = Receive the value of variables "$FirstName" and "$SecondName", using a space between them;
+// $CompleteSurname = Recebe o valor das variáveis "$FirstSurname" e "SecondSurname", com uso de um espaço entre elas;
 
-// $NameSurname = Recebe o valor das variáveis "CompleteName" e "$CompleteSurname", com uso de um espaço entre elas.
+// $NameSurname = Receive the value of variables "$CompleteName" and "$SecondName", using a space between them;
+// $NameSurname = Recebe o valor das variáveis "CompleteName" e "$CompleteSurname", com uso de um espaço entre elas;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>
