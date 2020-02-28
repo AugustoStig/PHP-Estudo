@@ -1,10 +1,10 @@
 <?php
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Created and updated by José Augusto Chaves Izabel;
-// Criado e atualizado por José Augusto Chaves Izabel;
+// Created and updated by José Augusto Chaves Izabel
+// Criado e atualizado por José Augusto Chaves Izabel
 
-// 17/02/2020;
+// 17/02/2020
 
 // Creation of two arrays, "Name" that saves people's names and "Color" that saves diferent color;
 // Criação de dois arrays, "Name" que salvará nomes de pessoas e "Color" que salvará cores;
@@ -16,12 +16,12 @@
 
 $Color = array("Azul","Verde","Vermelho","Amarelo","Roxo","Preto","Cinza","Branco","Laranja","Bege","Lilás","Rosa");
 
-// Creation of array "Name";
+// Array "Name" creation;
 // Criação do array "Name";
 
 $Name = array("Maria","Edna","José","Augusto","Almir","Ana","Luisa","Roberto","Ricardo","Luciana","Natália","João");
 
-// Message printing;
+// Message print;
 // Impressão de mensagem;
 
 echo '<strong>Impressão do primeiro número chamado no array "Color" :</strong>'."<br>\n";
@@ -41,7 +41,7 @@ echo "<br>\n";
 
 echo "<br>\n";
 
-// Message printing;
+// Message print;
 // Impressão de mensagem;
 
 echo '<strong>Impressão do primeiro número chamado no array "Name" :</strong>'."<br>\n";
@@ -61,7 +61,7 @@ echo "<br>\n";
 
 echo "<br>\n";
 
-// Message printing;
+// Message print;
 // Impressão de mensagem;
 
 echo '<strong>Impressão do segundo número chamado no array "Color" :</strong>'."<br>\n";
@@ -81,7 +81,7 @@ echo "<br>\n";
 
 echo "<br>\n";
 
-// Message printing;
+// Message print;
 // Impressão de mensagem;
 
 echo '<strong>Impressão do segundo número chamado no array "Name" :</strong>'."<br>\n";
@@ -131,7 +131,7 @@ lembrado que o array começa no número 0 e não no número 1, exemplo:*/
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// SUBTITLE OF COMMANDS :
+// COMMANDS SUBTITLE :
 // LEGENDA DE COMANDOS :
 
 // echo = Print a message;
@@ -151,7 +151,7 @@ lembrado que o array começa no número 0 e não no número 1, exemplo:*/
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// SUBTITLE OF VARIABLE :
+// VARIABLES SUBTITLE :
 // LEGENDA DE VARIÁVEIS :
 
 // $Color = Array with diverse colors;
