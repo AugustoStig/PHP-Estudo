@@ -1,87 +1,111 @@
 <?php
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// Created and updated by José Augusto Chaves Izabel
 // Criado e atualizado por José Augusto Chaves Izabel
 
 // 17/02/2020
 
-// Impressão de um "Hello World !!!" com uso das variáveis.
+// Print a "Hello World !!!", with variables;
+// Impressão de um "Hello World !!!" com uso das variáveis;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Criação de variável.
+// Creation of variable;
+// Criação de variável;
 
 $Hello = "Hello";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Impressão da variável "$Hello" :</strong>'."<br>\n";
 
-// Impressão de variável e quebra de linha.
+// Print a message with a line break;
+// Impressão de variável e quebra de linha;
 
 echo $Hello."<br>\n";
 
-// Criação de variável.
+// Creation of variable;
+// Criação de variável;
 
 $World = "World";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Impressão da variável "$World" :</strong>'."<br>\n";
-
-// Impressão de variável e quebra de linha.
+// Print a variable with a line break;
+// Impressão de variável e quebra de linha;
 
 echo $World."<br>\n";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Impressão da variável "$Point" :</strong>'."<br>\n";
 
-// Criação de variável.
+// Creation of variable;
+// Criação de variável;
 
 $Point = "!!!";
 
-// Impressão de variável.
+// Print of variable;
+// Impressão de variável;
 
 echo $Point."<br>\n";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Impressão da junção das variáveis "$Hello","$World","$Point" :</strong>'."<br>\n";
 
-// Impressão de variáveis.
+// Print of a variable;
+// Impressão de variáveis;
 
 echo $Hello." ".$World." ".$Point;
 
-// Fim do código.
+// End of code;
+// Fim do código;
 
 exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// SUBTITLE OF COMMANDS :
 // LEGENDA DE COMANDOS :
 
-// echo = Imprimir mensagem.
+// echo = Print message;
+// echo = Imprimir mensagem;
 
-// <br> = Quebra de linha na exibição final, deve ser usado dentro de aspas, simples ou duplas.
+// <br> = Line break on final exibition, must be used into quotation marks, single or double;
+// <br> = Quebra de linha na exibição final, deve ser usado dentro de aspas, simples ou duplas;
 
-// \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas.
+// \n = Line break in the HTML code generated after, must be used into quotation marks, double;
+// \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas;
 
-// exit = Serve para que o código pare de ser interpretado.
+// exit = Serve the code to stop being interpreted;
+// exit = Serve para que o código pare de ser interpretado;
 
-// <strong> = Deixa o texto escrito em negrito, deve ser fechado ao final do texto, deve ser utilizado dentro de aspas, simples ou duplas.
+// <strong> </strong> = Leave the text written in bold, must be closed at the end of the text, must be used within quotation marks, single or double;
+// <strong> = Deixa o texto escrito em negrito, deve ser fechado ao final do texto, deve ser utilizado dentro de aspas, simples ou duplas;
 
-// . = É utilizado para fazer a concatenação de duas variáveis, ou um variável e um texto, ou dois textos por exemplo.
+// . = It is used to concatenate two variables, or one variable and one text, or two texts for example;
+// . = É utilizado para fazer a concatenação de duas variáveis, ou um variável e um texto, ou dois textos por exemplo;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// SUBTITLE OF VARIABLE :
 // LEGENDA DE VARIÁVEIS :
 
-// $Hello = Recebe uma string, "Hello".
+// $Hello = Receive a strign, "Hello";
+// $Hello = Recebe uma string, "Hello";
 
-// $World = Recebe uma string, "World".
+// $World = Receive a string, "World";
+// $World = Recebe uma string, "World";
 
-// $Point = Recebe uma string, "!!!"
+// $Point = Receive a string, "!!!";
+// $Point = Recebe uma string, "!!!";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>
