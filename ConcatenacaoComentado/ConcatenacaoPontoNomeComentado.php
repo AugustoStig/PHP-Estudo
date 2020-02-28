@@ -11,7 +11,7 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Creation of a variable;
+// Variable creation;
 // Criação de variável;
 
 $FirstName = "José";
@@ -21,7 +21,7 @@ $FirstName = "José";
 
 echo '<strong>Impressão da variável $Nome :</strong>'."<br>\n";
 
-// Print a variable;
+// Variable print;
 // Impressão de variável;
 
 echo $FirstName;
@@ -31,7 +31,7 @@ echo $FirstName;
 
 echo "<br>\n";
 
-// Creation of a variable;
+// Variable creation;
 // Criação de variável;
 
 $SecondName = "Augusto";
@@ -41,7 +41,7 @@ $SecondName = "Augusto";
 
 echo '<strong>Impressão da variável $Nome2 :</strong>'."<br>\n";
 
-// Print a variable;
+// Variable print;
 // Impressão de variável;
 
 echo $SecondName;
@@ -51,7 +51,7 @@ echo $SecondName;
 
 echo "<br>\n";
 
-// Creation of a variable;
+// Variable creation;
 // Criação de variável;
 
 $FirstSurname = "Chaves";
@@ -61,7 +61,7 @@ $FirstSurname = "Chaves";
 
 echo '<strong>Impressão da variável $Sobrenome :</strong>'."<br>\n";
 
-// Print a variable;
+// Variable print;
 // Impressão de variável;
 
 echo $FirstSurname;
@@ -71,7 +71,7 @@ echo $FirstSurname;
 
 echo "<br>\n";
 
-// Creation of variable;
+// Variable creation;
 // Criação de variável;
 
 $SecondSurname = "Izabel";
@@ -81,7 +81,7 @@ $SecondSurname = "Izabel";
 
 echo '<strong>Impressão da variável $Sobrenome2 :</strong>'."<br>\n";
 
-// Print a variable;
+// Variable print;
 // Impressão de variável;
 
 echo $SecondSurname;
@@ -91,7 +91,7 @@ echo $SecondSurname;
 
 echo "<br>\n";
 
-// Creation of a variable;
+// Variable creation;
 // Criação de variável;
 
 $CompleteName = $FirstName." ".$SecondName;
@@ -101,7 +101,7 @@ $CompleteName = $FirstName." ".$SecondName;
 
 echo '<strong>Impressão da variável $NomeCompleto :</strong>'."<br>\n";
 
-// Print a variable;
+// Variable creation;
 // Impressão de variável;
 
 echo $CompleteName;
@@ -111,7 +111,7 @@ echo $CompleteName;
 
 echo "<br>\n";
 
-// Creation a variable;
+// Variable creation;
 // Criação de variável;
 
 $CompleteSurname = $FirstSurname." ".$SecondSurname;
@@ -121,7 +121,7 @@ $CompleteSurname = $FirstSurname." ".$SecondSurname;
 
 echo '<strong>Impressão da variável $SobrenomeCompleto :</strong>'."<br>\n";
 
-// Print a variable;
+// Variable print;
 // Impressão de variável;
 
 echo $CompleteSurname;
@@ -131,38 +131,38 @@ echo $CompleteSurname;
 
 echo "<br>\n";
 
-// Creation of a variable;
+// Variable creation;
 // Criação de variável;
 
 $NameSurname = $CompleteName." ".$CompleteSurname;
 
-// Print of a variable;
+// Variable print;
 // Impressão de variável;
 
 echo "<strong>Impressão do nome completo do usuário :</strong><br>\n";
 
-// Print a variable;
+// Variable print;
 // Impressão de variável;
 
 echo $NameSurname;
 
-// End of the code;
+// End of code;
 // Fim do código;
 
 exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// SUBTITLE OF COMMANDS :
+// COMMANDS SUBTITLE :
 // LEGENDA DE COMANDOS :
 
 // echo = Print message;
 // echo = Imprimir mensagem;
 
-// <br> = Line break on final exibition, must be used into quotation marks, single or double;
+// <br> = Line break, in final exibition, must be used into quotation marks, single or double;
 // <br> = Quebra de linha na exibição final, deve ser usado dentro de aspas, simples ou duplas;
 
-// \n = Line break in the HTML code generated after, must be used into quotation marks, double;
+// \n = Line break, in the HTML code generated after, must be used into quotation marks, double;
 // \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas;
 
 // exit = It serves to stop the code from being interpreted;
