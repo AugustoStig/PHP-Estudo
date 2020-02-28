@@ -1,10 +1,10 @@
 <?php
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Created and updated by José Augusto Chaves Izabel;
-// Criado e atualizado por José Augusto Chaves Izabel;
+// Created and updated by José Augusto Chaves Izabel
+// Criado e atualizado por José Augusto Chaves Izabel
 
-// 17/02/2020;
+// 17/02/2020
 
 // Creation of "Car" array, where will be saved 11 car brands, numbered of 0 to 10;
 // Criação do array "Car", onde serão salvas 11 marcas de carro, númeradas de 0 a 10;
@@ -87,7 +87,7 @@ lembrado que o array começa no número 0 e não no número 1, exemplo:*/
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// SUBTITLE OF COMMANDS :
+// COMMANDS SUBTITLE :
 // LEGENDA DE COMANDOS :
 
 // echo = Print messages;
@@ -107,7 +107,7 @@ lembrado que o array começa no número 0 e não no número 1, exemplo:*/
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// SUBTITLE OF VARIABLES :
+// VARIABLE SUBTITLE :
 // LEGENDA DE VARIÁVEIS : 
 
 // $Car = Array with car brands;
