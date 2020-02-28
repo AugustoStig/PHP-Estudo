@@ -21,12 +21,12 @@ $Hello = "Hello";
 
 echo '<strong>Impressão da variável $Hello :</strong>'."<br>\n";
 
-// Print of a variable and a line break;
+// Variable print and a line breake;
 // Impressão de variável e quebra de linha;
 
 echo $Hello."<br>\n";
 
-// Creation of variable;
+// Variable creation;
 // Criação de variável;
 
 $World = "World";
@@ -36,12 +36,12 @@ $World = "World";
 
 echo '<strong>Impressão da variável $World :</strong>'."<br>\n";
 
-// Print of variable;
+// Variable print;
 // Impressão de variável;
 
 echo $World."<br>\n";
 
-// Creation of variable;
+// Variable creation;
 // Criação da variável;
 
 $Point = "!!!";
@@ -51,12 +51,12 @@ $Point = "!!!";
 
 echo '<strong>Impressão da variável $Point :</strong>'."<br>\n";
 
-// Print of variable;
+// Variable print;
 // Impressão de variável;
 
 echo $Point."<br>\n";
 
-// Creation of variable;
+// Variable creation;
 // Criação da variável;
 
 $HelloWorld = $Hello." ".$World.$Point;
@@ -66,12 +66,12 @@ $HelloWorld = $Hello." ".$World.$Point;
 
 echo '<strong>Impressão da variável $HelloWorld :</strong>'."<br>\n";
 
-// Print of variable;
+// Variable print;
 // Impressão de variável;
 
 echo $HelloWorld;
 
-// End of the code;
+// End of code;
 // Fim do código;
 
 exit;
