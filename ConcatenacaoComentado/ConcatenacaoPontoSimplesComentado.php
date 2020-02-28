@@ -6,7 +6,7 @@
 
 // 17/02/2020
 
-// Print a "Hello World !!!", with variables;
+// Print a "Hello World !!!", using variables;
 // Impressão de um "Hello World !!!" com uso das variáveis;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -21,7 +21,7 @@ $Hello = "Hello";
 
 echo '<strong>Impressão da variável "$Hello" :</strong>'."<br>\n";
 
-// Print a message with a line break;
+// Print a message and a line break;
 // Impressão de variável e quebra de linha;
 
 echo $Hello."<br>\n";
@@ -35,7 +35,8 @@ $World = "World";
 // Impressão de mensagem;
 
 echo '<strong>Impressão da variável "$World" :</strong>'."<br>\n";
-// Print a variable with a line break;
+
+// Print a variable and a line break;
 // Impressão de variável e quebra de linha;
 
 echo $World."<br>\n";
@@ -72,16 +73,16 @@ exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// SUBTITLE OF COMMANDS :
+// COMMAND SUBTITLE :
 // LEGENDA DE COMANDOS :
 
 // echo = Print message;
 // echo = Imprimir mensagem;
 
-// <br> = Line break on final exibition, must be used into quotation marks, single or double;
+// <br> = Line break, in final exibition, must be used into quotation marks, single or double;
 // <br> = Quebra de linha na exibição final, deve ser usado dentro de aspas, simples ou duplas;
 
-// \n = Line break in the HTML code generated after, must be used into quotation marks, double;
+// \n = Line break, in the HTML code generated after, must be used into quotation marks, double;
 // \n = Quebra de linha no código HTML que será gerado, deve ser usado dentro de aspas, duplas;
 
 // exit = Serve the code to stop being interpreted;
@@ -95,7 +96,7 @@ exit;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// SUBTITLE OF VARIABLE :
+// VARIABLE SUBTITLE :
 // LEGENDA DE VARIÁVEIS :
 
 // $Hello = Receive a strign, "Hello";
