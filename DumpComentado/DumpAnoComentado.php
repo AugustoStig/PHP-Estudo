@@ -31,6 +31,11 @@ echo $BirthYear;
 
 echo "<br>\n";
 
+// Line break;
+// Quebra de linha;
+
+echo "<br>\n";
+
 // Print message;
 // Impressão de mensagem;
 
