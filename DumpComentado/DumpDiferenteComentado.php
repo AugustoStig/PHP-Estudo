@@ -24,7 +24,7 @@ $SecondValue = 12;
 // Message print;
 // Impressão de mensagem;
 
-echo '<strong>Valor e tipo da variável $Valor1 :</strong>'."<br>\n";
+echo '<strong>Valor e tipo da variável "FirstValue" :</strong>'."<br>\n";
 
 // "var_dumo" print;
 // Impressão de "var_dump";
@@ -36,10 +36,15 @@ var_dump($FirstValue);
 
 echo "<br>\n";
 
+// Line break;
+// Quebra de linha;
+
+echo "<br>\n";
+
 // Message print;
 // Impressão de mensagem;
 
-echo '<strong>Valor e tipo da variável $Valor2 :</strong>'."<br>\n";
+echo '<strong>Valor e tipo da variável "SecondValue" :</strong>'."<br>\n";
 
 // "var_dump" print;
 // Impressão de "var_dump";
@@ -48,6 +53,11 @@ var_dump($SecondValue);
 
 // Line break;
 // Quebra de linha
+
+echo "<br>\n";
+
+// Line break;
+// Quebra de linha;
 
 echo "<br>\n";
 
@@ -61,6 +71,11 @@ echo "<strong>Valor 1 é igual á $FirstValue.</strong><br>\n";
 
 echo "<strong>Valor 2 é igual á $SecondValue.</strong><br>\n";
 
+// Quebra de linha;
+// Line break;
+
+echo "<br>\n";
+
 // Message print;
 // Impressão de mensagem;
 
@@ -70,6 +85,11 @@ echo "<strong>$FirstValue e $SecondValue tem o mesmo valor?</strong><br>\n";
 // Impressão de "var_dump";
 
 var_dump($FirstValue!=$SecondValue);
+
+// Line break;
+// Quebra de linha;
+
+echo "<br>\n";
 
 // Line break;
 // Quebra de linha;
