@@ -24,12 +24,17 @@ $IntValue = 12;
 // Message print and line;
 // Impressão de mensagem e quebra de linha;
 
-echo '<strong>Valor e tipo da variável $Valor1 :</strong>'."<br>\n";
+echo '<strong>Valor e tipo da variável "FloatValue" :</strong>'."<br>\n";
 
 // "var_dump" print;
 // Impressão de "var_dump";
 
 var_dump($FloatValue);
+
+// Line break;
+// Quebra de linha;
+
+echo "<br>\n";
 
 // Line break;
 // Quebra de linha
@@ -39,12 +44,17 @@ echo "<br>\n";
 // Message print;
 // Impressão de mensagem;
 
-echo '<strong>Valor e tipo da variável $Valor2 :</strong>'."<br>\n";
+echo '<strong>Valor e tipo da variável "IntValue" :</strong>'."<br>\n";
 
 // "var_dump" print;
 // Impressão de "var_dump";
 
 var_dump($IntValue);
+
+// Line break;
+// Quebra de linha;
+
+echo "<br>\n";
 
 // Line break;
 // Quebra de linha;
@@ -61,6 +71,11 @@ echo "<strong>Valor 1 é igual á $FloatValue.</strong><br>\n";
 
 echo "<strong>Valor 2 é igual á $IntValue.</strong><br>\n";
 
+// Line break;
+// Quebra de linha;
+
+echo "<br>\n";
+
 // Message print;
 // Impressão de mensagem;
 
@@ -70,6 +85,11 @@ echo "<strong>$FloatValue e $IntValue tem o mesmo valor?</strong><br>\n";
 // Impressão de "var_dump";
 
 var_dump($FloatValue==$IntValue);
+
+// Line break;
+// Quebra de linha;
+
+echo "<br>\n";
 
 // Line break;
 // Quebra de linha;
