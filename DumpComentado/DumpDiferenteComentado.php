@@ -1,99 +1,127 @@
 <?php
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Criado e atualizado por José Augusto Chaves Izabel
+// Created e updated by José Augusto Chaves Izabel;
+// Criado e atualizado por José Augusto Chaves Izabel;
 
 // 12/02/2020
 
-// Uso do var_dump com o "!=" e "!==".
+// Use of "var_dumo" with a "!=" and "!==";
+// Uso do var_dump com o "!=" e "!==";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Criação de variável.
+// Variable creation;
+// Criação de variável;
 
 $FirstValue = 12.0;
 
-// Criação de variável.
+// Variable creation;
+// Criação de variável;
 
 $SecondValue = 12;
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Valor e tipo da variável $Valor1 :</strong>'."<br>\n";
 
-// Impressão de "var_dump""
+// "var_dumo" print;
+// Impressão de "var_dump";
 
 var_dump($FirstValue);
 
-// Quebra de linha.
+// Line break;
+// Quebra de linha;
 
 echo "<br>\n";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo '<strong>Valor e tipo da variável $Valor2 :</strong>'."<br>\n";
 
-// Impressão de "var_dump".
+// "var_dump" print;
+// Impressão de "var_dump";
 
 var_dump($SecondValue);
 
-// Quebra de linha.
+// Line break;
+// Quebra de linha
 
 echo "<br>\n";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo "<strong>Valor 1 é igual á $FirstValue.</strong><br>\n";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo "<strong>Valor 2 é igual á $SecondValue.</strong><br>\n";
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
 echo "<strong>$FirstValue e $SecondValue tem o mesmo valor?</strong><br>\n";
 
-// Impressão de "var_dump".
+// "var_dump" print;
+// Impressão de "var_dump";
 
 var_dump($FirstValue!=$SecondValue);
 
-// Quebra de linha.
+// Line break;
+// Quebra de linha;
 
 echo "<br>\n";
 
-// Impressão de mensagem e variável.
+// Message and variable print;
+// Impressão de mensagem e variável;
 
 echo "<strong>$FirstValue e $SecondValue tem o mesmo valor e tipo?</strong><br>\n";
 
-// Impressão de "var_dump".
+// "Var_dump" print;
+// Impressão de "var_dump";
 
 var_dump($FirstValue!==$SecondValue);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// COMMANDS SUBTITLE :
 // LEGENDA DE COMANDOS :
 
-// echo = Usado para impressão de mansagens ou valores.
+// echo = Used to print messages or variable values;
+// echo = Usado para impressão de mensagens ou valores;
 
-// <strong> </strong> = Usado para deixar o texto em negrito, ao final da frase deve ser fechado, deve ser usado dentro de aspas, simples ou duplas.
+// <strong> </strong> = Used to make the text bold, the end of the sentence must be closed, it must be used within quotation marks, single or double;
+// <strong> </strong> = Usado para deixar o texto em negrito, ao final da frase deve ser fechado, deve ser usado dentro de aspas, simples ou duplas;
 
-// <br> = Usado para quebrar linha na exibição final do código, usado dentro de aspas, simples ou duplas.
+// <br> = Used to break line in final exibition, must be used into quotation marks, single or double; 
+// <br> = Usado para quebrar linha na exibição final do código, usado dentro de aspas, simples ou duplas;
 
-// \n = Usado para quebrar linha no código HTML que será gerado ao final, deve ser usado dentro de aspas, duplas.
+// \n = Used to break line in the HTML code, generated after, must be used into quotation marks, double;
+// \n = Usado para quebrar linha no código HTML que será gerado ao final, deve ser usado dentro de aspas, duplas;
 
-// var_dump = Usado para exibir o tipo e valor de uma variável, após chama-lo deve ser abrir parentesis e colocar o nome da variável lá dentro.
+// var_dump = Used to display the type and value of a variable, after calling it, open parenthesis and put the name of the variable inside;
+// var_dump = Usado para exibir o tipo e valor de uma variável, após chama-lo deve ser abrir parentesis e colocar o nome da variável lá dentro;
 
-// != = Usado para comparar o valor de duas variáveis e constatar se são diferentes.
+// != = Used to compare the value of two variables and see if they are different;
+// != = Usado para comparar o valor de duas variáveis e constatar se são diferentes;
 
-// !== = Usado para comparar o valor e tipo de duas variáveis e constatar se são diferentes.
+// !== = Used to compare the value and type of two variables and see if they are different;
+// !== = Usado para comparar o valor e tipo de duas variáveis e constatar se são diferentes;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// VARIABLE SUBTITLE :
 // LEGENDA DE VARIÁVEIS :
 
-// $FirstValue = Recebe um Float, 12.0.
+// $FirstValue = Receive a Float, 12.0;
+// $FirstValue = Recebe um Float, 12.0;
 
-// $SecondValue = Recebe um Int, 12.
+// $FirstValue = Receive a Int, 12;
+// $SecondValue = Recebe um Int, 12;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>
