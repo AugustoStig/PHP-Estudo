@@ -1,57 +1,73 @@
 <?php
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// Created and updated by José Augusto Chaves Izabel
 // Criado e atualizado por José Augusto Chaves Izabel
 
 // 11/02/2020
 
-// Código criado com o objetivo de testar o var_dump em uma variável do tipo inteiro.
+// Code created with objective of test "var_dump" in a variable Int;
+// Código criado com o objetivo de testar o var_dump em uma variável do tipo inteiro;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Criação da variável "$AnoNascimento".
+// Variable creation;
+// Criação da variável;
 
 $BirthYear = 1947;
 
-// Impressão de mensagem.
+// Message print;
+// Impressão de mensagem;
 
-echo '<strong>Impressão da variável "$Anonascimento" :</strong>'."<br>\n";
+echo '<strong>Impressão da variável "BirthYear" :</strong>'."<br>\n";
 
-// Impressão de variável.
+// Variable print;
+// Impressão de variável;
 
 echo $BirthYear;
 
-// Quebra de linha.
+// Line break;
+// Quebra de linha;
 
 echo "<br>\n";
 
-// Impressão de mensagem.
+// Print message;
+// Impressão de mensagem;
 
-echo '<strong>Impressão da variável "$AnoNascimento" :</strong>'."<br>\n";
+echo '<strong>Impressão da variável "BirthYear" :</strong>'."<br>\n";
 
-// Impressão de "var_dump".
+// "var_dump" print;
+// Impressão de "var_dump";
 
 var_dump($BirthYear);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// COMMANDS SUBTITLE :
 // LEGENDA DE COMANDOS :
 
-// echo = Usado para impressão de mansagens ou valores.
+// echo = Used to print a message or variable values;
+// echo = Usado para impressão de mensagens ou valores;
 
-// <strong> = Usado para deixar o texto em negrito, ao final da frase deve ser fechado, deve ser usado dentro de aspas, simples ou duplas.
+// <strong> </strong> = Used to make the text bold, the end of the sentence must be closed, it must be used within quotation marks, single or double;
+// <strong> </strong> = Usado para deixar o texto em negrito, ao final da frase deve ser fechado, deve ser usado dentro de aspas, simples ou duplas;
 
-// <br> = Usado para quebrar linha na exibição final do código, usado dentro de aspas, simples ou duplas.
+// <br> = Used to break line in the final exibition of code, must be used into quotation marks, single or double;
+// <br> = Usado para quebrar linha na exibição final do código, usado dentro de aspas, simples ou duplas;
 
-// \n = Usado para quebrar linha no código HTML que será gerado ao final, deve ser usado dentro de aspas, duplas.
+// \n = Used to break line in the HTML code, generate after, must be used into quotation marks, double;
+// \n = Usado para quebrar linha no código HTML que será gerado ao final, deve ser usado dentro de aspas, duplas;
 
-// var_dump = Usado para exibir o tipo e valor de uma variável, após chama-lo deve ser abrir parentesis e colocar o nome da variável lá dentro.
+// var_dump = Used to show the type and value of a variable, after calling it, open parenthesis and put the name of the variable inside;
+// var_dump = Usado para exibir o tipo e valor de uma variável, após chama-lo deve ser abrir parentesis e colocar o nome da variável lá dentro;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// VARIABLE SUBTITLE :
 // LEGENDA DE VARIÁVEIS :
 
-// $BirthYear = Recebe um Int, 1947.
+// $BirthYear = Receive a Int, 1947;
+// $BirthYear = Recebe um Int, 1947;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ?>
