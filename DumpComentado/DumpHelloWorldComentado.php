@@ -26,6 +26,11 @@ $Hello = "Hello World!!!";
 
 echo $Hello."<br>\n";
 
+// Line break;
+// Quebra de linha;
+
+echo "<br>\n";
+
 // Message print;
 // Impressão de mensagem;
 
