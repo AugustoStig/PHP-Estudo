@@ -6,8 +6,8 @@
 
 // 12/02/2020
 
-// Use of var_dump em conjunto com "==" e "==="
-// Uso do var_dump em conjunto com "==" e "==="
+// Use of var_dump em conjunto com "==" e "===";
+// Uso do var_dump em conjunto com "==" e "===";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -37,7 +37,7 @@ var_dump($FloatValue);
 echo "<br>\n";
 
 // Line break;
-// Quebra de linha
+// Quebra de linha;
 
 echo "<br>\n";
 
