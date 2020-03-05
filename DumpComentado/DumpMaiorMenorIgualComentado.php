@@ -71,6 +71,11 @@ echo "<strong>Valor 5 =</strong> $FifthValue.<br>\n";
 
 echo "<strong>Valor 6 =</strong> $SixthValue.<br>\n";
 
+// Line break;
+// Quebra de linha;
+
+echo "<br>\n";
+
 // Message print;
 // Impressão de mensagem;
 
@@ -82,6 +87,11 @@ echo "<strong>$FirstValue é maior que $SecondValue?</strong><br\n>";
 var_dump($FirstValue<=>$SecondValue);
 
 // Break line;
+// Quebra de linha;
+
+echo "<br>\n";
+
+// Line break;
 // Quebra de linha;
 
 echo "<br>\n";
@@ -101,6 +111,11 @@ var_dump($ThirdValue<=>$FourthValue);
 
 echo "<br>\n";
 
+// Line break;
+// Quebra de linha;
+
+echo "<br>\n";
+
 // Message print;
 // Impressão de mensagem;
 
@@ -112,6 +127,11 @@ echo "<strong>$FifthValue é maior que $SixthValue?</strong><br>\n";
 var_dump($FifthValue<=>$SixthValue);
 
 // Break line;
+// Quebra de linha;
+
+echo "<br>\n";
+
+// Line break;
 // Quebra de linha;
 
 echo "<br>\n";
