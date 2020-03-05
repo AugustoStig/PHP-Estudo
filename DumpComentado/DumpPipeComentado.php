@@ -31,6 +31,11 @@ var_dump($FirstCalculation);
 
 echo "<br>\n";
 
+// Line break;
+// Quebra de linha;
+
+echo "<br>\n";
+
 // Variable creation;
 // Criação de variável;
 
