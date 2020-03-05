@@ -2,35 +2,35 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criado e atualizado por José Augusto Chaves Izabel
+// Criado e atualizado por José Augusto Chaves Izabel
 
-//18/02/2020
+// 18/02/2020
 
-//Uso do "var_dump"
+// Uso do "var_dump";
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Criação de variável.
+// Criação de variável;
 
 $Value = 199.90;
 
-//Impressão de mensagem.
+// Impressão de mensagem;
 
 echo '<strong>Impressão da variável "$Valor" :</strong>'."<br>\n";
 
-//Impressão de variável.
+// Impressão de variável;
 
 echo $Value;
 
-//Quebra de linha.
+// Quebra de linha;
 
 echo "<br>\n";
 
-//Impressão de mensagem.
+// Impressão de mensagem;
 
 echo '<strong>Impressão do "var_dump" da variável "$Valor" :</strong>'."<br>\n";
 
-//Impressão do "var_dump".
+// Impressão do "var_dump";
 
 var_dump($Value);
 
