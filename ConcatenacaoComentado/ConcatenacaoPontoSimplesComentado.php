@@ -11,78 +11,25 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Variable creation;
-// Criação de variável;
-
 $Hello = "Hello";
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "Hello" :</strong>'."<br>\n";
-
-// Message print and line break;
-// Impressão de variável e quebra de linha;
-
 echo $Hello."<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Variable creation;
-// Criação de variável;
 
 $World = "World";
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "World" :</strong>'."<br>\n";
-
-// Variable print and a line break;
-// Impressão de variável e quebra de linha;
-
 echo $World."<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "Point" :</strong>'."<br>\n";
-
-// Variable creation;
-// Criação de variável;
 
 $Point = "!!!";
 
-// Variable print;
-// Impressão de variável;
-
 echo $Point."<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da junção das variáveis "Hello","World","Point" :</strong>'."<br>\n";
-
-// Variable print;
-// Impressão de variáveis;
-
 echo $Hello." ".$World." ".$Point;
-
-// End of code;
-// Fim do código;
 
 exit;
 
