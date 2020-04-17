@@ -11,88 +11,25 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Creation of array "Color";
-// Criação do array "Color";
 
 $Color = array("Azul","Verde","Vermelho","Amarelo","Roxo","Preto","Cinza","Branco","Laranja","Bege","Lilás","Rosa");
 
-// Array "Name" creation;
-// Criação do array "Name";
-
 $Name = array("Maria","Edna","José","Augusto","Almir","Ana","Luisa","Roberto","Ricardo","Luciana","Natália","João");
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão do primeiro número chamado no array "Color" :</strong>'."<br>\n";
-
-// Print of number 7 of "Color" array;
-// Impressão do número 7 do array "Color";
-
 echo $Color[7];
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão do primeiro número chamado no array "Name" :</strong>'."<br>\n";
-
-// Print of number 3 of "Name" array;
-// Impressão do número 3 do array "Name";
-
 echo $Name[3];
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-//Line break;
-//Quebra de linha;
-
 echo "<br>\n";
-
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão do segundo número chamado no array "Color" :</strong>'."<br>\n";
-
-// Print of number 3 of "Color" array;
-// Impressão do número 3 do array "Color";
-
 echo $Color[3];
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão do segundo número chamado no array "Name" :</strong>'."<br>\n";
-
-// Print of number 7 of "Name" array;
-// Impressão do número 7 do array "Name";
-
 echo $Name[7];
-
-// End of code;
-// Fim do código;
 
 exit;
 
