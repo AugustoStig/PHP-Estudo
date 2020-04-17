@@ -11,43 +11,14 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Creation of "Car" array;
-// Criação do array "Car";
-
 $Car = array("Fiat","Ford","Volkswagen","BMW","Mercedes-Benz","Lada","Dacia","Renault","Citroën","Peugeot","Holden");
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão do primeiro número chamado do array "Car" :</strong>'."<br>\n";
-
-// Print of number 3 of "Car" array;
-// Impressão do número 3 do array "Car";
-
 echo $Car[3];
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão do segundo número chamado do array "Car" :</strong>'."<br>\n";
-
-// Print of number 7 of "Car" array;
-// Impressão do número 7 do array "Car";
-
 echo $Car[7];
-
-// End of code;
-// Fim do código;
 
 exit;
 
