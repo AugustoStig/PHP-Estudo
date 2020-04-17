@@ -11,83 +11,28 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Creation of variable;
-// Criação de variável;
-
 $Hello = "Hello";
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "Hello" :</strong>'."<br>\n";
-
-// Variable print and a line breake;
-// Impressão de variável e quebra de linha;
-
 echo $Hello."<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Variable creation;
-// Criação de variável;
 
 $World = "World";
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "World" :</strong>'."<br>\n";
-
-// Variable print;
-// Impressão de variável;
-
 echo $World."<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Variable creation;
-// Criação da variável;
 
 $Point = "!!!";
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "Point" :</strong>'."<br>\n";
-
-// Variable print;
-// Impressão de variável;
-
 echo $Point."<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Variable creation;
-// Criação da variável;
 
 $HelloWorld = $Hello." ".$World.$Point;
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "HelloWorld" :</strong>'."<br>\n";
-
-// Variable print;
-// Impressão de variável;
-
 echo $HelloWorld;
-
-// End of code;
-// Fim do código;
 
 exit;
 
