@@ -11,173 +11,53 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Variable creation;
-// Criação de variável;
-
 $FirstName = "José";
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "FirstName" :</strong>'."<br>\n";
-
-// Variable print;
-// Impressão de variável;
-
 echo $FirstName;
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Variable creation;
-// Criação de variável;
 
 $SecondName = "Augusto";
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "SecondName" :</strong>'."<br>\n";
-
-// Variable print;
-// Impressão de variável;
-
 echo $SecondName;
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Variable creation;
-// Criação de variável;
 
 $FirstSurname = "Chaves";
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "FirstSurname" :</strong>'."<br>\n";
-
-// Variable print;
-// Impressão de variável;
-
 echo $FirstSurname;
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Variable creation;
-// Criação de variável;
 
 $SecondSurname = "Izabel";
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "SecondSurname" :</strong>'."<br>\n";
-
-// Variable print;
-// Impressão de variável;
-
 echo $SecondSurname;
-
-// Line break;
-// Quebra de linha;
-
+echo "<br>\n";
 echo "<br>\n";
 
-// Line break;
-// Quebra de linha;
-
-echo "<br>\n";
-
-// Variable creation;
-// Criação de variável;
 
 $CompleteName = $FirstName." ".$SecondName;
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "CompleteName" :</strong>'."<br>\n";
-
-// Variable creation;
-// Impressão de variável;
-
 echo $CompleteName;
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Variable creation;
-// Criação de variável;
 
 $CompleteSurname = $FirstSurname." ".$SecondSurname;
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "CompleteSurname" :</strong>'."<br>\n";
-
-// Variable print;
-// Impressão de variável;
-
 echo $CompleteSurname;
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Variable creation;
-// Criação de variável;
 
 $NameSurname = $CompleteName." ".$CompleteSurname;
 
-// Variable print;
-// Impressão de variável;
-
 echo "<strong>Impressão do nome completo do usuário :</strong><br>\n";
-
-// Variable print;
-// Impressão de variável;
-
 echo $NameSurname;
-
-// End of code;
-// Fim do código;
 
 exit;
 
