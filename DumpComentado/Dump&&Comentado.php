@@ -11,43 +11,17 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Variable creation;
-// Criação de variável;
-
 $FirstCalculation = 2 * 3 > 5 && 7 + 2 == 9;
-
-//
-// Impressão de mensagem;
 
 echo "<strong>(2*3) é maior que 5? E (7+2) é igual á 9?</strong><br>\n";
 
-// "var_dump" print;
-// Impressão de "var_dump";
-
 var_dump($FirstCalculation);
 
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Message print;
-// Impressão de mensagem;
-
 echo "<strong>(2*3) é maior que 5? E (7+2) é igual á 10?</strong><br>\n";
 
-// Variable creation;
-// Criação de variável;
-
 $SecondCalculation = 2 * 3 > 5 && 7 + 2 == 10;
-
-// "var_dump" print;
-// Impressão de "var_dump";
 
 var_dump($SecondCalculation);
 
