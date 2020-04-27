@@ -11,38 +11,13 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// Variable creation;
-// Criação da variável;
-
 $BirthYear = 1947;
 
-// Message print;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "BirthYear" :</strong>'."<br>\n";
-
-// Variable print;
-// Impressão de variável;
-
 echo $BirthYear;
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Line break;
-// Quebra de linha;
-
 echo "<br>\n";
-
-// Print message;
-// Impressão de mensagem;
-
 echo '<strong>Impressão da variável "BirthYear" :</strong>'."<br>\n";
-
-// "var_dump" print;
-// Impressão de "var_dump";
 
 var_dump($BirthYear);
 
